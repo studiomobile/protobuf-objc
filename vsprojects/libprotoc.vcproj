@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="9.00"
 	Name="libprotoc"
 	ProjectGUID="{B84FF31A-5F9A-46F8-AB22-DBFC9BECE3BE}"
 	Keyword="Win32Proj"
-	TargetFrameworkVersion="0"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -248,6 +248,46 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_enum.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_enum_field.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_extension.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_field.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_file.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_generator.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_helpers.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_message.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_message_field.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_primitive_field.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\google\protobuf\compiler\python\python_generator.h"
 				>
 			</File>
@@ -361,6 +401,46 @@
 			</File>
 			<File
 				RelativePath="..\src\google\protobuf\compiler\java\java_service.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_enum.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_enum_field.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_extension.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_field.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_file.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_generator.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_message.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_message_field.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\src\google\protobuf\compiler\objectivec\objectivec_primitive_field.cc"
 				>
 			</File>
 			<File

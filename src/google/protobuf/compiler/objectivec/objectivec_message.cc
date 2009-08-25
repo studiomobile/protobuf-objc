@@ -27,12 +27,14 @@
 #include <google/protobuf/stubs/strutil.h>
 #include <google/protobuf/io/printer.h>
 #include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/wire_format_inl.h>
+#include <google/protobuf/wire_format.h>
+#include <google/protobuf/wire_format_lite_inl.h>
 #include <google/protobuf/descriptor.pb.h>
 
 namespace google { namespace protobuf { namespace compiler { namespace objectivec {
 
   using internal::WireFormat;
+  using internal::WireFormatLite;
 
   namespace {
     struct FieldOrderingByNumber {
@@ -791,7 +793,7 @@ namespace google { namespace protobuf { namespace compiler { namespace objective
 
     for (int i = 0; i < descriptor_->field_count(); i++) {
       const FieldDescriptor* field = sorted_fields[i];
-      uint32 tag = WireFormat::MakeTag(field->number(),
+      uint32 tag = WireFormatLite::MakeTag(field->number(),
         WireFormat::WireTypeForField(field));
 
       printer->Print(

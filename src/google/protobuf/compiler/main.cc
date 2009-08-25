@@ -34,6 +34,7 @@
 #include <google/protobuf/compiler/cpp/cpp_generator.h>
 #include <google/protobuf/compiler/python/python_generator.h>
 #include <google/protobuf/compiler/java/java_generator.h>
+#include <google/protobuf/compiler/objectivec/objectivec_generator.h>
 
 
 int main(int argc, char* argv[]) {
@@ -55,6 +56,12 @@ int main(int argc, char* argv[]) {
   google::protobuf::compiler::python::Generator py_generator;
   cli.RegisterGenerator("--python_out", &py_generator,
                         "Generate Python source file.");
+
+
+  // Proto2 Objective-C
+  google::protobuf::compiler::objectivec::ObjectiveCGenerator objc_generator;
+  cli.RegisterGenerator("--objc_out", &objc_generator,
+                        "Generate Objective-C source file.");
 
   return cli.Run(argc, argv);
 }

@@ -24,7 +24,9 @@ AM_LDFLAGS = $(PTHREAD_CFLAGS)
 # If I say "dist_include_DATA", automake complains that $(includedir) is not
 # a "legitimate" directory for DATA.  Screw you, automake.
 protodir = $(includedir)
-nobase_dist_proto_DATA = google/protobuf/descriptor.proto
+nobase_dist_proto_DATA =                         \
+  google/protobuf/descriptor.proto               \
+  google/protobuf/objectivec-descriptor.proto
 
 # Not sure why these don't get cleaned automatically.
 clean-local:
@@ -47,6 +49,7 @@ nobase_include_HEADERS =                                       \
   google/protobuf/generated_message_reflection.h               \
   google/protobuf/message.h                                    \
   google/protobuf/message_lite.h                               \
+  google/protobuf/objectivec-descriptor.pb.h                   \
   google/protobuf/reflection_ops.h                             \
   google/protobuf/repeated_field.h                             \
   google/protobuf/service.h                                    \
@@ -68,7 +71,8 @@ nobase_include_HEADERS =                                       \
   google/protobuf/compiler/parser.h                            \
   google/protobuf/compiler/cpp/cpp_generator.h                 \
   google/protobuf/compiler/java/java_generator.h               \
-  google/protobuf/compiler/python/python_generator.h
+  google/protobuf/compiler/python/python_generator.h           \
+  google/protobuf/compiler/objectivec/objectivec_generator.h
 
 lib_LTLIBRARIES = libprotobuf-lite.la libprotobuf.la libprotoc.la
 
@@ -106,6 +110,7 @@ libprotobuf_la_SOURCES =                                       \
   google/protobuf/extension_set_heavy.cc                       \
   google/protobuf/generated_message_reflection.cc              \
   google/protobuf/message.cc                                   \
+  google/protobuf/objectivec-descriptor.pb.cc                  \
   google/protobuf/reflection_ops.cc                            \
   google/protobuf/service.cc                                   \
   google/protobuf/text_format.cc                               \
@@ -167,7 +172,26 @@ libprotoc_la_SOURCES =                                         \
   google/protobuf/compiler/java/java_primitive_field.h         \
   google/protobuf/compiler/java/java_service.cc                \
   google/protobuf/compiler/java/java_service.h                 \
-  google/protobuf/compiler/python/python_generator.cc
+  google/protobuf/compiler/python/python_generator.cc          \
+  google/protobuf/compiler/objectivec/objectivec_enum.cc                   \
+  google/protobuf/compiler/objectivec/objectivec_enum.h                    \
+  google/protobuf/compiler/objectivec/objectivec_enum_field.cc             \
+  google/protobuf/compiler/objectivec/objectivec_enum_field.h              \
+  google/protobuf/compiler/objectivec/objectivec_extension.cc              \
+  google/protobuf/compiler/objectivec/objectivec_extension.h               \
+  google/protobuf/compiler/objectivec/objectivec_field.cc                  \
+  google/protobuf/compiler/objectivec/objectivec_field.h                   \
+  google/protobuf/compiler/objectivec/objectivec_file.cc                   \
+  google/protobuf/compiler/objectivec/objectivec_file.h                    \
+  google/protobuf/compiler/objectivec/objectivec_generator.cc              \
+  google/protobuf/compiler/objectivec/objectivec_helpers.cc                \
+  google/protobuf/compiler/objectivec/objectivec_helpers.h                 \
+  google/protobuf/compiler/objectivec/objectivec_message.cc                \
+  google/protobuf/compiler/objectivec/objectivec_message.h                 \
+  google/protobuf/compiler/objectivec/objectivec_message_field.cc          \
+  google/protobuf/compiler/objectivec/objectivec_message_field.h           \
+  google/protobuf/compiler/objectivec/objectivec_primitive_field.cc        \
+  google/protobuf/compiler/objectivec/objectivec_primitive_field.h
 
 bin_PROGRAMS = protoc
 protoc_LDADD = $(PTHREAD_LIBS) libprotobuf.la libprotoc.la

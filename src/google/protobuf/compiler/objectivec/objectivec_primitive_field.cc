@@ -25,13 +25,15 @@
 #include <google/protobuf/stubs/common.h>
 #include <google/protobuf/compiler/objectivec/objectivec_helpers.h>
 #include <google/protobuf/io/printer.h>
-#include <google/protobuf/wire_format_inl.h>
+#include <google/protobuf/wire_format.h>
+#include <google/protobuf/wire_format_lite_inl.h>
 #include <google/protobuf/stubs/strutil.h>
 #include <google/protobuf/stubs/substitute.h>
 
 namespace google { namespace protobuf { namespace compiler { namespace objectivec {
 
   using internal::WireFormat;
+  using internal::WireFormatLite;
 
   namespace {
 
@@ -88,14 +90,14 @@ namespace google { namespace protobuf { namespace compiler { namespace objective
         case FieldDescriptor::TYPE_UINT64  : return -1;
         case FieldDescriptor::TYPE_SINT32  : return -1;
         case FieldDescriptor::TYPE_SINT64  : return -1;
-        case FieldDescriptor::TYPE_FIXED32 : return WireFormat::kFixed32Size;
-        case FieldDescriptor::TYPE_FIXED64 : return WireFormat::kFixed64Size;
-        case FieldDescriptor::TYPE_SFIXED32: return WireFormat::kSFixed32Size;
-        case FieldDescriptor::TYPE_SFIXED64: return WireFormat::kSFixed64Size;
-        case FieldDescriptor::TYPE_FLOAT   : return WireFormat::kFloatSize;
-        case FieldDescriptor::TYPE_DOUBLE  : return WireFormat::kDoubleSize;
+        case FieldDescriptor::TYPE_FIXED32 : return WireFormatLite::kFixed32Size;
+        case FieldDescriptor::TYPE_FIXED64 : return WireFormatLite::kFixed64Size;
+        case FieldDescriptor::TYPE_SFIXED32: return WireFormatLite::kSFixed32Size;
+        case FieldDescriptor::TYPE_SFIXED64: return WireFormatLite::kSFixed64Size;
+        case FieldDescriptor::TYPE_FLOAT   : return WireFormatLite::kFloatSize;
+        case FieldDescriptor::TYPE_DOUBLE  : return WireFormatLite::kDoubleSize;
 
-        case FieldDescriptor::TYPE_BOOL    : return WireFormat::kBoolSize;
+        case FieldDescriptor::TYPE_BOOL    : return WireFormatLite::kBoolSize;
         case FieldDescriptor::TYPE_ENUM    : return -1;
 
         case FieldDescriptor::TYPE_STRING  : return -1;
