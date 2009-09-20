@@ -341,7 +341,7 @@ Copyright (C) 2006 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/Projects/protobuf-2.2.0'
+ac_pwd='/Projects/metasyntactic/trunk/protobuf-2.2.0'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='./install-sh -c -d'
@@ -445,18 +445,18 @@ enable_static='yes'
 pic_mode='default'
 enable_fast_install='needless'
 host_alias=''
-host='i386-apple-darwin9.8.0'
-host_os='darwin9.8.0'
+host='i386-apple-darwin10.0.0'
+host_os='darwin10.0.0'
 build_alias=''
-build='i386-apple-darwin9.8.0'
-build_os='darwin9.8.0'
+build='i386-apple-darwin10.0.0'
+build_os='darwin10.0.0'
 SED='/usr/bin/sed'
 Xsed='/usr/bin/sed -e 1s/^X//'
 GREP='/usr/bin/grep'
 EGREP='/usr/bin/grep -E'
 FGREP='/usr/bin/grep -F'
-LD='/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld'
-NM='/usr/bin/nm -p'
+LD='/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld'
+NM='/usr/bin/nm'
 LN_S='ln -s'
 max_cmd_len='196608'
 ac_objext='o'
@@ -540,14 +540,14 @@ runpath_var=''
 shlibpath_var='DYLD_LIBRARY_PATH'
 shlibpath_overrides_runpath='yes'
 libname_spec='lib$name'
-library_names_spec='${libname}${release}${major}$shared_ext ${libname}$shared_ext'
+library_names_spec='${libname}${release}${major}$shared_ext ${libname}$shared_ext ${libname}${release}${versuffix}$shared_ext'
 soname_spec='${libname}${release}${major}$shared_ext'
 postinstall_cmds=''
 postuninstall_cmds=''
 finish_cmds=''
 finish_eval=''
 hardcode_into_libs='no'
-sys_lib_search_path_spec='/usr/lib/i686-apple-darwin9/4.0.1 /usr/lib /usr/lib/gcc/i686-apple-darwin9/4.0.1 /usr/local/lib'
+sys_lib_search_path_spec='/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 /usr/lib/i686-apple-darwin10/4.2.1 /usr/lib /usr/local/lib'
 sys_lib_dlsearch_path_spec='/usr/local/lib /lib /usr/lib'
 hardcode_action='immediate'
 enable_dlopen='unknown'
@@ -561,7 +561,7 @@ postdep_objects=''
 predeps=''
 postdeps=''
 compiler_lib_search_path=''
-LD_CXX='/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld'
+LD_CXX='/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld'
 old_archive_cmds_CXX='$AR $AR_FLAGS $oldlib$oldobjs~$RANLIB $oldlib'
 compiler_CXX='g++'
 GCC_CXX='yes'
@@ -771,18 +771,18 @@ s,@LIBS@,|#_!!_#|-lz ,g
 s,@build_alias@,|#_!!_#|,g
 s,@host_alias@,|#_!!_#|,g
 s,@target_alias@,|#_!!_#|,g
-s,@build@,|#_!!_#|i386-apple-darwin9.8.0,g
+s,@build@,|#_!!_#|i386-apple-darwin10.0.0,g
 s,@build_cpu@,|#_!!_#|i386,g
 s,@build_vendor@,|#_!!_#|apple,g
-s,@build_os@,|#_!!_#|darwin9.8.0,g
-s,@host@,|#_!!_#|i386-apple-darwin9.8.0,g
+s,@build_os@,|#_!!_#|darwin10.0.0,g
+s,@host@,|#_!!_#|i386-apple-darwin10.0.0,g
 s,@host_cpu@,|#_!!_#|i386,g
 s,@host_vendor@,|#_!!_#|apple,g
-s,@host_os@,|#_!!_#|darwin9.8.0,g
-s,@target@,|#_!!_#|i386-apple-darwin9.8.0,g
+s,@host_os@,|#_!!_#|darwin10.0.0,g
+s,@target@,|#_!!_#|i386-apple-darwin10.0.0,g
 s,@target_cpu@,|#_!!_#|i386,g
 s,@target_vendor@,|#_!!_#|apple,g
-s,@target_os@,|#_!!_#|darwin9.8.0,g
+s,@target_os@,|#_!!_#|darwin10.0.0,g
 s,@INSTALL_PROGRAM@,|#_!!_#|${INSTALL},g
 s,@INSTALL_SCRIPT@,|#_!!_#|${INSTALL},g
 s,@INSTALL_DATA@,|#_!!_#|${INSTALL} -m 644,g
@@ -790,19 +790,19 @@ s,@am__isrc@,|#_!!_#|,g
 s,@CYGPATH_W@,|#_!!_#|echo,g
 s,@PACKAGE@,|#_!!_#|protobuf,g
 s,@VERSION@,|#_!!_#|2.2.0,g
-s,@ACLOCAL@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run aclocal-1.10,g
-s,@AUTOCONF@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run autoconf,g
-s,@AUTOMAKE@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run automake-1.10,g
-s,@AUTOHEADER@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run autoheader,g
-s,@MAKEINFO@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run makeinfo,g
-s,@install_sh@,|#_!!_#|$(SHELL) /Projects/protobuf-2.2.0/install-sh,g
+s,@ACLOCAL@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run aclocal-1.10,g
+s,@AUTOCONF@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run autoconf,g
+s,@AUTOMAKE@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run automake-1.10,g
+s,@AUTOHEADER@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run autoheader,g
+s,@MAKEINFO@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run makeinfo,g
+s,@install_sh@,|#_!!_#|$(SHELL) /Projects/metasyntactic/trunk/protobuf-2.2.0/install-sh,g
 s,@STRIP@,|#_!!_#|strip,g
 s,@INSTALL_STRIP_PROGRAM@,|#_!!_#|$(install_sh) -c -s,g
 s,@mkdir_p@,|#_!!_#|$(top_builddir)/./install-sh -c -d,g
 s,@AWK@,|#_!!_#|awk,g
 s,@SET_MAKE@,|#_!!_#|,g
 s,@am__leading_dot@,|#_!!_#|.,g
-s,@AMTAR@,|#_!!_#|${SHELL} /Projects/protobuf-2.2.0/missing --run tar,g
+s,@AMTAR@,|#_!!_#|${SHELL} /Projects/metasyntactic/trunk/protobuf-2.2.0/missing --run tar,g
 s,@am__tar@,|#_!!_#|${AMTAR} chof - "$$tardir",g
 s,@am__untar@,|#_!!_#|${AMTAR} xf -,g
 s,@CC@,|#_!!_#|gcc,g
@@ -840,10 +840,10 @@ s,@ISAINFO@,|#_!!_#|,g
 s,@LIBTOOL@,|#_!!_#|$(SHELL) $(top_builddir)/libtool,g
 s,@SED@,|#_!!_#|/usr/bin/sed,g
 s,@FGREP@,|#_!!_#|/usr/bin/grep -F,g
-s,@LD@,|#_!!_#|/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld,g
+s,@LD@,|#_!!_#|/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld,g
 s,@DUMPBIN@,|#_!!_#|,g
 s,@ac_ct_DUMPBIN@,|#_!!_#|,g
-s,@NM@,|#_!!_#|/usr/bin/nm -p,g
+s,@NM@,|#_!!_#|/usr/bin/nm,g
 s,@LN_S@,|#_!!_#|ln -s,g
 s,@AR@,|#_!!_#|ar,g
 s,@RANLIB@,|#_!!_#|ranlib,g
@@ -1186,22 +1186,21 @@ echo "$as_me: $ac_file is unchanged" >&6;}
   fi
   rm -f "$tmp/out12"
 # Compute $ac_file's index in $config_headers.
-_am_arg=$ac_file
 _am_stamp_count=1
 for _am_header in $config_headers :; do
   case $_am_header in
-    $_am_arg | $_am_arg:* )
+    $ac_file | $ac_file:* )
       break ;;
     * )
       _am_stamp_count=`expr $_am_stamp_count + 1` ;;
   esac
 done
-echo "timestamp for $_am_arg" >`$as_dirname -- "$_am_arg" ||
-$as_expr X"$_am_arg" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
-	 X"$_am_arg" : 'X\(//\)[^/]' \| \
-	 X"$_am_arg" : 'X\(//\)$' \| \
-	 X"$_am_arg" : 'X\(/\)' \| . 2>/dev/null ||
-echo X"$_am_arg" |
+echo "timestamp for $ac_file" >`$as_dirname -- $ac_file ||
+$as_expr X$ac_file : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
+	 X$ac_file : 'X\(//\)[^/]' \| \
+	 X$ac_file : 'X\(//\)$' \| \
+	 X$ac_file : 'X\(/\)' \| . 2>/dev/null ||
+echo X$ac_file |
     sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
 	    s//\1/
 	    q
@@ -1238,7 +1237,7 @@ echo "$as_me: executing $ac_file commands" >&6;}
   # each Makefile.in and add a new line on top of each file to say so.
   # Grep'ing the whole file is not good either: AIX grep has a line
   # limit of 2048, but all sed's we know have understand at least 4000.
-  if sed -n 's,^#.*generated by automake.*,X,p' "$mf" | grep X >/dev/null 2>&1; then
+  if sed 10q "$mf" | grep '^#.*generated by automake' > /dev/null 2>&1; then
     dirpart=`$as_dirname -- "$mf" ||
 $as_expr X"$mf" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
 	 X"$mf" : 'X\(//\)[^/]' \| \
@@ -1361,8 +1360,8 @@ done
     fi
 
     cfgfile="${ofile}T"
-    trap "$RM \"$cfgfile\"; exit 1" 1 2 15
-    $RM "$cfgfile"
+    trap "$RM -f \"$cfgfile\"; exit 1" 1 2 15
+    $RM -f "$cfgfile"
 
     cat <<_LT_EOF >> "$cfgfile"
 #! $SHELL
