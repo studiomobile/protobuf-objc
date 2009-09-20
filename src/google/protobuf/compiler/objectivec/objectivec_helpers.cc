@@ -157,15 +157,15 @@ namespace google { namespace protobuf { namespace compiler { namespace objective
   string FilePath(const FileDescriptor* file) {
     string path = FileName(file);
 
-    if (file->options().HasExtension(objectivec_file_options)) {
+	if (file->options().HasExtension(objectivec_file_options)) {
       ObjectiveCFileOptions options = file->options().GetExtension(objectivec_file_options);
 
-      if (options.objectivec_package() != "") {
-        path = options.objectivec_package() + "/" + path;
+      if (options.package() != "") {
+        path = options.package() + "/" + path;
       } 
     }
 
-    return path;
+	return path;
   }
 
 
@@ -175,7 +175,7 @@ namespace google { namespace protobuf { namespace compiler { namespace objective
     } else if (file->options().HasExtension(objectivec_file_options)) {
       ObjectiveCFileOptions options = file->options().GetExtension(objectivec_file_options);
 
-      return options.objectivec_class_prefix();
+      return options.class_prefix();
     } else {
       return "";
     }
