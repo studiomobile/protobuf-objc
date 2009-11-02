@@ -137,7 +137,6 @@
 		7461B69F0F94FDF800A0C422 /* CoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreTests.m; path = Tests/CoreTests.m; sourceTree = "<group>"; };
 		7461B6A20F94FDF800A0C422 /* GeneratedMessageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneratedMessageTests.h; path = Tests/GeneratedMessageTests.h; sourceTree = "<group>"; };
 		7461B6A30F94FDF800A0C422 /* GeneratedMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneratedMessageTests.m; path = Tests/GeneratedMessageTests.m; sourceTree = "<group>"; };
-		7461B6A40F94FDF800A0C422 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Tests/Macros.h; sourceTree = "<group>"; };
 		7461B6A50F94FDF800A0C422 /* MessageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageTests.h; path = Tests/MessageTests.h; sourceTree = "<group>"; };
 		7461B6A60F94FDF800A0C422 /* MessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageTests.m; path = Tests/MessageTests.m; sourceTree = "<group>"; };
 		7461B6A70F94FDF800A0C422 /* MicroTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroTest.h; path = Tests/MicroTest.h; sourceTree = "<group>"; };
@@ -350,7 +349,6 @@
 				7461B69C0F94FDF800A0C422 /* CodedOuputStreamTests.h */,
 				7461B69E0F94FDF800A0C422 /* CoreTests.h */,
 				7461B6A20F94FDF800A0C422 /* GeneratedMessageTests.h */,
-				7461B6A40F94FDF800A0C422 /* Macros.h */,
 				7461B6A50F94FDF800A0C422 /* MessageTests.h */,
 				7461B6A70F94FDF800A0C422 /* MicroTest.h */,
 				7461B6A90F94FDF800A0C422 /* SmallBlockInputStream.h */,
