@@ -653,8 +653,6 @@
 		7461B52F0F94FAFA00A0C422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "";
-				SDKROOT = macosx10.5;
 			};
 			name = Debug;
 		};
