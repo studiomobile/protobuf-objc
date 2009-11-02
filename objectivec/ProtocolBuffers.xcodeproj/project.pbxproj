@@ -653,15 +653,7 @@
 		7461B52F0F94FAFA00A0C422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
-				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
-				PRODUCT_NAME = ProtocolBuffers;
+				OTHER_LDFLAGS = "";
 				SDKROOT = macosx10.5;
 			};
 			name = Debug;
@@ -669,17 +661,6 @@
 		7461B5300F94FAFA00A0C422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
-				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
-				PRODUCT_NAME = ProtocolBuffers;
-				SDKROOT = iphonesimulator3.0;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -755,6 +736,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -766,7 +751,8 @@
 					"-all_load",
 				);
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = Debug;
 		};
@@ -776,6 +762,8 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -786,7 +774,8 @@
 					"-all_load",
 				);
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = Release;
 		};
