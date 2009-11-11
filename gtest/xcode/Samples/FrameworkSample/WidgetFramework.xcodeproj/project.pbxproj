@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100000000000000000001B5D /* widget.cc in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001B5C /* widget.cc */; };
-		100000000000000000001B5F /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000001B5E /* widget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		100000000000000000001B61 /* widget_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001B60 /* widget_test.cc */; };
-		1000000000000000000017B8 /* Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017B7 /* Widget.framework */; };
-		10000000000000000000186D /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000186B /* gtest.framework */; };
+		1000000000000000000020BA /* widget.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000020B9 /* widget.cc */; };
+		1000000000000000000020BC /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 1000000000000000000020BB /* widget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1000000000000000000020BE /* widget_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000020BD /* widget_test.cc */; };
+		100000000000000000001C8D /* Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001C8C /* Widget.framework */; };
+		100000000000000000001D8D /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001D42 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		100000000000000000000F34 /* PBXContainerItemProxy */ = {
+		100000000000000000001182 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1000000000000000000010DE /* Project object */;
+			containerPortal = 10000000000000000000148A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D07F2BC0486CC7A007CD1D0;
 			remoteInfo = gTestExample;
@@ -25,26 +25,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1000000000000000000017BB /* WidgetFrameworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WidgetFrameworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		100000000000000000001B5C /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
-		100000000000000000001B5E /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
-		100000000000000000001B60 /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget_test.cc; sourceTree = "<group>"; };
-		10000000000000000000186B /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../build/Debug/gtest.framework; sourceTree = "<group>"; };
-		100000000000000000000B16 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1000000000000000000017B7 /* Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000001C91 /* WidgetFrameworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WidgetFrameworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1000000000000000000020B9 /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
+		1000000000000000000020BB /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		1000000000000000000020BD /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget_test.cc; sourceTree = "<group>"; };
+		100000000000000000001D42 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../build/Debug/gtest.framework; sourceTree = "<group>"; };
+		100000000000000000000C8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000001C8C /* Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1000000000000000000009F9 /* Frameworks */ = {
+		100000000000000000000B43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1000000000000000000017B8 /* Widget.framework in Frameworks */,
-				10000000000000000000186D /* gtest.framework in Frameworks */,
+				100000000000000000001C8D /* Widget.framework in Frameworks */,
+				100000000000000000001D8D /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		100000000000000000000A1E /* Frameworks */ = {
+		100000000000000000000B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,56 +54,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1000000000000000000010C2 /* Products */ = {
+		10000000000000000000147B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1000000000000000000017B7 /* Widget.framework */,
-				1000000000000000000017BB /* WidgetFrameworkTest */,
+				100000000000000000001C8C /* Widget.framework */,
+				100000000000000000001C91 /* WidgetFrameworkTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		100000000000000000001815 /* gTestExample */ = {
+		100000000000000000001CEB /* gTestExample */ = {
 			isa = PBXGroup;
 			children = (
-				1000000000000000000012E1 /* Source */,
-				10000000000000000000119B /* Resources */,
-				1000000000000000000015B3 /* Test */,
-				1000000000000000000009E6 /* External Frameworks and Libraries */,
-				1000000000000000000010C2 /* Products */,
+				10000000000000000000172E /* Source */,
+				1000000000000000000015F5 /* Resources */,
+				100000000000000000001A7E /* Test */,
+				100000000000000000000AE8 /* External Frameworks and Libraries */,
+				10000000000000000000147B /* Products */,
 			);
 			name = gTestExample;
 			sourceTree = "<group>";
 		};
-		1000000000000000000009E6 /* External Frameworks and Libraries */ = {
+		100000000000000000000AE8 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				10000000000000000000186B /* gtest.framework */,
+				100000000000000000001D42 /* gtest.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
 		};
-		10000000000000000000119B /* Resources */ = {
+		1000000000000000000015F5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000000B16 /* Info.plist */,
+				100000000000000000000C8C /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1000000000000000000012E1 /* Source */ = {
+		10000000000000000000172E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000001B5C /* widget.cc */,
-				100000000000000000001B5E /* widget.h */,
+				1000000000000000000020B9 /* widget.cc */,
+				1000000000000000000020BB /* widget.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
 		};
-		1000000000000000000015B3 /* Test */ = {
+		100000000000000000001A7E /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000001B60 /* widget_test.cc */,
+				1000000000000000000020BD /* widget_test.cc */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -111,43 +111,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		100000000000000000000A68 /* Headers */ = {
+		100000000000000000000BD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000001B5F /* widget.h in Headers */,
+				1000000000000000000020BC /* widget.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1000000000000000000017BA /* WidgetFrameworkTest */ = {
+		100000000000000000001C90 /* WidgetFrameworkTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100000000000000000000603 /* Build configuration list for PBXNativeTarget "WidgetFrameworkTest" */;
+			buildConfigurationList = 100000000000000000000613 /* Build configuration list for PBXNativeTarget "WidgetFrameworkTest" */;
 			buildPhases = (
-				1000000000000000000012F0 /* Sources */,
-				1000000000000000000009F9 /* Frameworks */,
+				100000000000000000001795 /* Sources */,
+				100000000000000000000B43 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				100000000000000000000FA4 /* PBXTargetDependency */,
+				1000000000000000000012E9 /* PBXTargetDependency */,
 			);
 			name = WidgetFrameworkTest;
 			productName = gTestExampleTest;
-			productReference = 1000000000000000000017BB /* WidgetFrameworkTest */;
+			productReference = 100000000000000000001C91 /* WidgetFrameworkTest */;
 			productType = "com.apple.product-type.tool";
 		};
-		100000000000000000001817 /* WidgetFramework */ = {
+		100000000000000000001CED /* WidgetFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100000000000000000000605 /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
+			buildConfigurationList = 100000000000000000000615 /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
 			buildPhases = (
-				100000000000000000001315 /* Sources */,
-				100000000000000000000A1E /* Frameworks */,
-				100000000000000000000A68 /* Headers */,
-				1000000000000000000011AD /* Resources */,
-				1000000000000000000011C5 /* Rez */,
+				1000000000000000000017DA /* Sources */,
+				100000000000000000000B44 /* Frameworks */,
+				100000000000000000000BD4 /* Headers */,
+				1000000000000000000015F1 /* Resources */,
+				10000000000000000000160D /* Rez */,
 			);
 			buildRules = (
 			);
@@ -156,30 +156,30 @@
 			name = WidgetFramework;
 			productInstallPath = "$(HOME)/Library/Frameworks";
 			productName = gTestExample;
-			productReference = 1000000000000000000017B7 /* Widget.framework */;
+			productReference = 100000000000000000001C8C /* Widget.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1000000000000000000010DE /* Project object */ = {
+		10000000000000000000148A /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 100000000000000000000653 /* Build configuration list for PBXProject "WidgetFramework" */;
+			buildConfigurationList = 100000000000000000000663 /* Build configuration list for PBXProject "WidgetFramework" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 100000000000000000001815 /* gTestExample */;
-			productRefGroup = 1000000000000000000010C2 /* Products */;
+			mainGroup = 100000000000000000001CEB /* gTestExample */;
+			productRefGroup = 10000000000000000000147B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100000000000000000001817 /* WidgetFramework */,
-				1000000000000000000017BA /* WidgetFrameworkTest */,
+				100000000000000000001CED /* WidgetFramework */,
+				100000000000000000001C90 /* WidgetFrameworkTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1000000000000000000011AD /* Resources */ = {
+		1000000000000000000015F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,7 +189,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
-		1000000000000000000011C5 /* Rez */ = {
+		10000000000000000000160D /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,34 +199,34 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1000000000000000000012F0 /* Sources */ = {
+		100000000000000000001795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000001B61 /* widget_test.cc in Sources */,
+				1000000000000000000020BE /* widget_test.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		100000000000000000001315 /* Sources */ = {
+		1000000000000000000017DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000001B5D /* widget.cc in Sources */,
+				1000000000000000000020BA /* widget.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		100000000000000000000FA4 /* PBXTargetDependency */ = {
+		1000000000000000000012E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000000000001817 /* WidgetFramework */;
-			targetProxy = 100000000000000000000F34 /* PBXContainerItemProxy */;
+			target = 100000000000000000001CED /* WidgetFramework */;
+			targetProxy = 100000000000000000001182 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		100000000000000000000896 /* Debug */ = {
+		100000000000000000000941 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -239,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		100000000000000000001167 /* Release */ = {
+		10000000000000000000157F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -252,7 +252,7 @@
 			};
 			name = Release;
 		};
-		1000000000000000000008BD /* Debug */ = {
+		100000000000000000000939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -267,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		10000000000000000000118E /* Release */ = {
+		10000000000000000000157D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -282,7 +282,7 @@
 			};
 			name = Release;
 		};
-		1000000000000000000008BE /* Debug */ = {
+		100000000000000000000992 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -291,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		10000000000000000000118F /* Release */ = {
+		1000000000000000000015CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -302,34 +302,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		100000000000000000000603 /* Build configuration list for PBXNativeTarget "WidgetFrameworkTest" */ = {
+		100000000000000000000613 /* Build configuration list for PBXNativeTarget "WidgetFrameworkTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				100000000000000000000896 /* Debug */,
-				100000000000000000001167 /* Release */,
+				100000000000000000000941 /* Debug */,
+				10000000000000000000157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000000000605 /* Build configuration list for PBXNativeTarget "WidgetFramework" */ = {
+		100000000000000000000615 /* Build configuration list for PBXNativeTarget "WidgetFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1000000000000000000008BD /* Debug */,
-				10000000000000000000118E /* Release */,
+				100000000000000000000939 /* Debug */,
+				10000000000000000000157D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000000000653 /* Build configuration list for PBXProject "WidgetFramework" */ = {
+		100000000000000000000663 /* Build configuration list for PBXProject "WidgetFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1000000000000000000008BE /* Debug */,
-				10000000000000000000118F /* Release */,
+				100000000000000000000992 /* Debug */,
+				1000000000000000000015CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1000000000000000000010DE /* Project object */;
+	rootObject = 10000000000000000000148A /* Project object */;
 }
