@@ -39,48 +39,48 @@
 		100000000000000000000A49 /* GeneratedMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000A48 /* GeneratedMessage_Builder.m */; };
 		100000000000000000000A4A /* GeneratedMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000A48 /* GeneratedMessage_Builder.m */; };
 		100000000000000000000CB8 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000CB7 /* Main.m */; };
-		100000000000000000000D1B /* MessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D1A /* MessageTests.m */; };
-		100000000000000000000D1C /* MessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D1A /* MessageTests.m */; };
-		100000000000000000000D7C /* MicroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D7B /* MicroTest.m */; };
-		100000000000000000000DB3 /* MutableExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB2 /* MutableExtensionRegistry.h */; };
-		100000000000000000000DB5 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB4 /* MutableExtensionRegistry.m */; };
-		100000000000000000000DB6 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB4 /* MutableExtensionRegistry.m */; };
-		100000000000000000000DB9 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB8 /* MutableField.m */; };
-		100000000000000000000DBA /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB8 /* MutableField.m */; };
-		10000000000000000000125E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000125D /* SenTestingKit.framework */; };
-		10000000000000000000125F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000125D /* SenTestingKit.framework */; };
-		1000000000000000000012DC /* SmallBlockInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000012DB /* SmallBlockInputStream.m */; };
-		1000000000000000000015B5 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015B4 /* TestUtilities.m */; };
-		1000000000000000000015B6 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015B4 /* TestUtilities.m */; };
-		1000000000000000000015C1 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015C0 /* TextFormat.m */; };
-		1000000000000000000015C2 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015C0 /* TextFormat.m */; };
-		100000000000000000001748 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001747 /* Unittest.pb.m */; };
-		100000000000000000001749 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001747 /* Unittest.pb.m */; };
-		10000000000000000000174C /* UnittestEmbedOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000174B /* UnittestEmbedOptimizeFor.pb.m */; };
-		10000000000000000000174F /* UnittestImport.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000174E /* UnittestImport.pb.m */; };
-		100000000000000000001750 /* UnittestImport.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000174E /* UnittestImport.pb.m */; };
-		100000000000000000001753 /* UnittestMset.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001752 /* UnittestMset.pb.m */; };
-		100000000000000000001756 /* UnittestOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001755 /* UnittestOptimizeFor.pb.m */; };
-		100000000000000000001759 /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001758 /* UnknownFieldSet.m */; };
-		10000000000000000000175A /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001758 /* UnknownFieldSet.m */; };
-		10000000000000000000175D /* UnknownFieldSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175C /* UnknownFieldSetTest.m */; };
-		10000000000000000000175E /* UnknownFieldSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175C /* UnknownFieldSetTest.m */; };
-		100000000000000000001761 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001760 /* UnknownFieldSet_Builder.m */; };
-		100000000000000000001762 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001760 /* UnknownFieldSet_Builder.m */; };
-		10000000000000000000178B /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001787 /* Utilities.m */; };
-		10000000000000000000178C /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001787 /* Utilities.m */; };
-		10000000000000000000178F /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000178E /* UtilitiesTests.m */; };
-		1000000000000000000017BD /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017BC /* WireFormat.m */; };
-		1000000000000000000017BE /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017BC /* WireFormat.m */; };
-		1000000000000000000017C1 /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017C0 /* WireFormatTests.m */; };
-		1000000000000000000017C2 /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017C0 /* WireFormatTests.m */; };
-		100000000000000000001978 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001976 /* libProtocolBuffers.a */; };
+		100000000000000000000D1D /* MessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D1C /* MessageTests.m */; };
+		100000000000000000000D1E /* MessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D1C /* MessageTests.m */; };
+		100000000000000000000D7E /* MicroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000D7D /* MicroTest.m */; };
+		100000000000000000000DB5 /* MutableExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB4 /* MutableExtensionRegistry.h */; };
+		100000000000000000000DB7 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB6 /* MutableExtensionRegistry.m */; };
+		100000000000000000000DB8 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DB6 /* MutableExtensionRegistry.m */; };
+		100000000000000000000DBB /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DBA /* MutableField.m */; };
+		100000000000000000000DBC /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000DBA /* MutableField.m */; };
+		100000000000000000001260 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000125F /* SenTestingKit.framework */; };
+		100000000000000000001261 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000000000125F /* SenTestingKit.framework */; };
+		1000000000000000000012DE /* SmallBlockInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000012DD /* SmallBlockInputStream.m */; };
+		1000000000000000000015B7 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015B6 /* TestUtilities.m */; };
+		1000000000000000000015B8 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015B6 /* TestUtilities.m */; };
+		1000000000000000000015C3 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015C2 /* TextFormat.m */; };
+		1000000000000000000015C4 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000015C2 /* TextFormat.m */; };
+		10000000000000000000174A /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001749 /* Unittest.pb.m */; };
+		10000000000000000000174B /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001749 /* Unittest.pb.m */; };
+		10000000000000000000174E /* UnittestEmbedOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000174D /* UnittestEmbedOptimizeFor.pb.m */; };
+		100000000000000000001751 /* UnittestImport.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001750 /* UnittestImport.pb.m */; };
+		100000000000000000001752 /* UnittestImport.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001750 /* UnittestImport.pb.m */; };
+		100000000000000000001755 /* UnittestMset.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001754 /* UnittestMset.pb.m */; };
+		100000000000000000001758 /* UnittestOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001757 /* UnittestOptimizeFor.pb.m */; };
+		10000000000000000000175B /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175A /* UnknownFieldSet.m */; };
+		10000000000000000000175C /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175A /* UnknownFieldSet.m */; };
+		10000000000000000000175F /* UnknownFieldSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175E /* UnknownFieldSetTest.m */; };
+		100000000000000000001760 /* UnknownFieldSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000175E /* UnknownFieldSetTest.m */; };
+		100000000000000000001763 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001762 /* UnknownFieldSet_Builder.m */; };
+		100000000000000000001764 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001762 /* UnknownFieldSet_Builder.m */; };
+		10000000000000000000178D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001789 /* Utilities.m */; };
+		10000000000000000000178E /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001789 /* Utilities.m */; };
+		100000000000000000001791 /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000001790 /* UtilitiesTests.m */; };
+		1000000000000000000017BF /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017BE /* WireFormat.m */; };
+		1000000000000000000017C0 /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017BE /* WireFormat.m */; };
+		1000000000000000000017C3 /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017C2 /* WireFormatTests.m */; };
+		1000000000000000000017C4 /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000000000017C2 /* WireFormatTests.m */; };
+		10000000000000000000197A /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001978 /* libProtocolBuffers.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		100000000000000000000F13 /* PBXContainerItemProxy */ = {
+		100000000000000000000F15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1000000000000000000010DF /* Project object */;
+			containerPortal = 1000000000000000000010E1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1000000000000000000010A3;
 			remoteInfo = ProtocolBuffers;
@@ -124,53 +124,53 @@
 		100000000000000000000A47 /* GeneratedMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage_Builder.h; sourceTree = "<group>"; };
 		100000000000000000000A48 /* GeneratedMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage_Builder.m; sourceTree = "<group>"; };
 		100000000000000000000CB7 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
-		100000000000000000000D15 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		100000000000000000000D19 /* MessageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageTests.h; path = Tests/MessageTests.h; sourceTree = "<group>"; };
-		100000000000000000000D1A /* MessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageTests.m; path = Tests/MessageTests.m; sourceTree = "<group>"; };
-		100000000000000000000D36 /* Message_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_Builder.h; sourceTree = "<group>"; };
-		100000000000000000000D7A /* MicroTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroTest.h; path = Tests/MicroTest.h; sourceTree = "<group>"; };
-		100000000000000000000D7B /* MicroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicroTest.m; path = Tests/MicroTest.m; sourceTree = "<group>"; };
-		100000000000000000000DB2 /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableExtensionRegistry.h; sourceTree = "<group>"; };
-		100000000000000000000DB4 /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
-		100000000000000000000DB7 /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
-		100000000000000000000DB8 /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
-		1000000000000000000010E5 /* ProtocolBuffers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProtocolBuffers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		1000000000000000000010E7 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = Classes/ProtocolBuffers.h; sourceTree = "<group>"; };
-		1000000000000000000010EA /* ProtocolBuffers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers_Prefix.pch; sourceTree = "<group>"; };
-		10000000000000000000125D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1000000000000000000012DA /* SmallBlockInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallBlockInputStream.h; path = Tests/SmallBlockInputStream.h; sourceTree = "<group>"; };
-		1000000000000000000012DB /* SmallBlockInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallBlockInputStream.m; path = Tests/SmallBlockInputStream.m; sourceTree = "<group>"; };
-		1000000000000000000015B3 /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
-		1000000000000000000015B4 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUtilities.m; path = Tests/TestUtilities.m; sourceTree = "<group>"; };
-		1000000000000000000015BF /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
-		1000000000000000000015C0 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
-		100000000000000000001740 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		100000000000000000001742 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		100000000000000000001746 /* Unittest.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unittest.pb.h; path = Tests/Unittest.pb.h; sourceTree = "<group>"; };
-		100000000000000000001747 /* Unittest.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Unittest.pb.m; path = Tests/Unittest.pb.m; sourceTree = "<group>"; };
-		10000000000000000000174A /* UnittestEmbedOptimizeFor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestEmbedOptimizeFor.pb.h; path = Tests/UnittestEmbedOptimizeFor.pb.h; sourceTree = "<group>"; };
-		10000000000000000000174B /* UnittestEmbedOptimizeFor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestEmbedOptimizeFor.pb.m; path = Tests/UnittestEmbedOptimizeFor.pb.m; sourceTree = "<group>"; };
-		10000000000000000000174D /* UnittestImport.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestImport.pb.h; path = Tests/UnittestImport.pb.h; sourceTree = "<group>"; };
-		10000000000000000000174E /* UnittestImport.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestImport.pb.m; path = Tests/UnittestImport.pb.m; sourceTree = "<group>"; };
-		100000000000000000001751 /* UnittestMset.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestMset.pb.h; path = Tests/UnittestMset.pb.h; sourceTree = "<group>"; };
-		100000000000000000001752 /* UnittestMset.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestMset.pb.m; path = Tests/UnittestMset.pb.m; sourceTree = "<group>"; };
-		100000000000000000001754 /* UnittestOptimizeFor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestOptimizeFor.pb.h; path = Tests/UnittestOptimizeFor.pb.h; sourceTree = "<group>"; };
-		100000000000000000001755 /* UnittestOptimizeFor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestOptimizeFor.pb.m; path = Tests/UnittestOptimizeFor.pb.m; sourceTree = "<group>"; };
-		100000000000000000001757 /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet.h; sourceTree = "<group>"; };
-		100000000000000000001758 /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet.m; sourceTree = "<group>"; };
-		10000000000000000000175B /* UnknownFieldSetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownFieldSetTest.h; path = Tests/UnknownFieldSetTest.h; sourceTree = "<group>"; };
-		10000000000000000000175C /* UnknownFieldSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownFieldSetTest.m; path = Tests/UnknownFieldSetTest.m; sourceTree = "<group>"; };
-		10000000000000000000175F /* UnknownFieldSet_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet_Builder.h; sourceTree = "<group>"; };
-		100000000000000000001760 /* UnknownFieldSet_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet_Builder.m; sourceTree = "<group>"; };
-		100000000000000000001784 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		100000000000000000001787 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
-		10000000000000000000178D /* UtilitiesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilitiesTests.h; path = Tests/UtilitiesTests.h; sourceTree = "<group>"; };
-		10000000000000000000178E /* UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilitiesTests.m; path = Tests/UtilitiesTests.m; sourceTree = "<group>"; };
-		1000000000000000000017BB /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFormat.h; sourceTree = "<group>"; };
-		1000000000000000000017BC /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
-		1000000000000000000017BF /* WireFormatTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WireFormatTests.h; path = Tests/WireFormatTests.h; sourceTree = "<group>"; };
-		1000000000000000000017C0 /* WireFormatTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WireFormatTests.m; path = Tests/WireFormatTests.m; sourceTree = "<group>"; };
-		100000000000000000001976 /* libProtocolBuffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolBuffers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000D17 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		100000000000000000000D1B /* MessageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageTests.h; path = Tests/MessageTests.h; sourceTree = "<group>"; };
+		100000000000000000000D1C /* MessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageTests.m; path = Tests/MessageTests.m; sourceTree = "<group>"; };
+		100000000000000000000D38 /* Message_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_Builder.h; sourceTree = "<group>"; };
+		100000000000000000000D7C /* MicroTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroTest.h; path = Tests/MicroTest.h; sourceTree = "<group>"; };
+		100000000000000000000D7D /* MicroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicroTest.m; path = Tests/MicroTest.m; sourceTree = "<group>"; };
+		100000000000000000000DB4 /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableExtensionRegistry.h; sourceTree = "<group>"; };
+		100000000000000000000DB6 /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
+		100000000000000000000DB9 /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
+		100000000000000000000DBA /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
+		1000000000000000000010E7 /* ProtocolBuffers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProtocolBuffers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		1000000000000000000010E9 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = Classes/ProtocolBuffers.h; sourceTree = "<group>"; };
+		1000000000000000000010EC /* ProtocolBuffers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers_Prefix.pch; sourceTree = "<group>"; };
+		10000000000000000000125F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1000000000000000000012DC /* SmallBlockInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallBlockInputStream.h; path = Tests/SmallBlockInputStream.h; sourceTree = "<group>"; };
+		1000000000000000000012DD /* SmallBlockInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallBlockInputStream.m; path = Tests/SmallBlockInputStream.m; sourceTree = "<group>"; };
+		1000000000000000000015B5 /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
+		1000000000000000000015B6 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUtilities.m; path = Tests/TestUtilities.m; sourceTree = "<group>"; };
+		1000000000000000000015C1 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		1000000000000000000015C2 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
+		100000000000000000001742 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		100000000000000000001744 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000001748 /* Unittest.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unittest.pb.h; path = Tests/Unittest.pb.h; sourceTree = "<group>"; };
+		100000000000000000001749 /* Unittest.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Unittest.pb.m; path = Tests/Unittest.pb.m; sourceTree = "<group>"; };
+		10000000000000000000174C /* UnittestEmbedOptimizeFor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestEmbedOptimizeFor.pb.h; path = Tests/UnittestEmbedOptimizeFor.pb.h; sourceTree = "<group>"; };
+		10000000000000000000174D /* UnittestEmbedOptimizeFor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestEmbedOptimizeFor.pb.m; path = Tests/UnittestEmbedOptimizeFor.pb.m; sourceTree = "<group>"; };
+		10000000000000000000174F /* UnittestImport.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestImport.pb.h; path = Tests/UnittestImport.pb.h; sourceTree = "<group>"; };
+		100000000000000000001750 /* UnittestImport.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestImport.pb.m; path = Tests/UnittestImport.pb.m; sourceTree = "<group>"; };
+		100000000000000000001753 /* UnittestMset.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestMset.pb.h; path = Tests/UnittestMset.pb.h; sourceTree = "<group>"; };
+		100000000000000000001754 /* UnittestMset.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestMset.pb.m; path = Tests/UnittestMset.pb.m; sourceTree = "<group>"; };
+		100000000000000000001756 /* UnittestOptimizeFor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestOptimizeFor.pb.h; path = Tests/UnittestOptimizeFor.pb.h; sourceTree = "<group>"; };
+		100000000000000000001757 /* UnittestOptimizeFor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestOptimizeFor.pb.m; path = Tests/UnittestOptimizeFor.pb.m; sourceTree = "<group>"; };
+		100000000000000000001759 /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet.h; sourceTree = "<group>"; };
+		10000000000000000000175A /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet.m; sourceTree = "<group>"; };
+		10000000000000000000175D /* UnknownFieldSetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownFieldSetTest.h; path = Tests/UnknownFieldSetTest.h; sourceTree = "<group>"; };
+		10000000000000000000175E /* UnknownFieldSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownFieldSetTest.m; path = Tests/UnknownFieldSetTest.m; sourceTree = "<group>"; };
+		100000000000000000001761 /* UnknownFieldSet_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet_Builder.h; sourceTree = "<group>"; };
+		100000000000000000001762 /* UnknownFieldSet_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet_Builder.m; sourceTree = "<group>"; };
+		100000000000000000001786 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		100000000000000000001789 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		10000000000000000000178F /* UtilitiesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilitiesTests.h; path = Tests/UtilitiesTests.h; sourceTree = "<group>"; };
+		100000000000000000001790 /* UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilitiesTests.m; path = Tests/UtilitiesTests.m; sourceTree = "<group>"; };
+		1000000000000000000017BD /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFormat.h; sourceTree = "<group>"; };
+		1000000000000000000017BE /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
+		1000000000000000000017C1 /* WireFormatTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WireFormatTests.h; path = Tests/WireFormatTests.h; sourceTree = "<group>"; };
+		1000000000000000000017C2 /* WireFormatTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WireFormatTests.m; path = Tests/WireFormatTests.m; sourceTree = "<group>"; };
+		100000000000000000001978 /* libProtocolBuffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolBuffers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +178,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000001978 /* libProtocolBuffers.a in Frameworks */,
-				10000000000000000000125E /* SenTestingKit.framework in Frameworks */,
+				10000000000000000000197A /* libProtocolBuffers.a in Frameworks */,
+				100000000000000000001260 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10000000000000000000125F /* SenTestingKit.framework in Frameworks */,
+				100000000000000000001261 /* SenTestingKit.framework in Frameworks */,
 				1000000000000000000009DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,9 +210,9 @@
 				1000000000000000000009A6 /* Fields */,
 				100000000000000000000A3F /* GeneratedMessage */,
 				100000000000000000000A96 /* IO */,
-				100000000000000000000D37 /* Messages */,
-				100000000000000000001784 /* Utilities.h */,
-				100000000000000000001787 /* Utilities.m */,
+				100000000000000000000D39 /* Messages */,
+				100000000000000000001786 /* Utilities.h */,
+				100000000000000000001789 /* Utilities.m */,
 				100000000000000000000CB7 /* Main.m */,
 			);
 			path = Classes;
@@ -221,12 +221,12 @@
 		100000000000000000000846 /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				1000000000000000000015B7 /* Tests */,
+				1000000000000000000015B9 /* Tests */,
 				100000000000000000000678 /* Classes */,
-				100000000000000000000F03 /* Other Sources */,
-				10000000000000000000119D /* Resources */,
+				100000000000000000000F05 /* Other Sources */,
+				10000000000000000000119F /* Resources */,
 				1000000000000000000009EB /* Frameworks */,
-				1000000000000000000010C9 /* Products */,
+				1000000000000000000010CB /* Products */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -239,12 +239,12 @@
 				10000000000000000000093D /* ExtendableMessage_Builder.h */,
 				100000000000000000000942 /* ExtensionField.h */,
 				100000000000000000000944 /* ExtensionRegistry.h */,
-				100000000000000000000DB2 /* MutableExtensionRegistry.h */,
+				100000000000000000000DB4 /* MutableExtensionRegistry.h */,
 				100000000000000000000792 /* ConcreteExtensionField.m */,
 				10000000000000000000093A /* ExtendableMessage.m */,
 				10000000000000000000093F /* ExtendableMessage_Builder.m */,
 				100000000000000000000945 /* ExtensionRegistry.m */,
-				100000000000000000000DB4 /* MutableExtensionRegistry.m */,
+				100000000000000000000DB6 /* MutableExtensionRegistry.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -253,13 +253,13 @@
 			isa = PBXGroup;
 			children = (
 				1000000000000000000009A2 /* Field.h */,
-				100000000000000000000DB7 /* MutableField.h */,
-				100000000000000000001757 /* UnknownFieldSet.h */,
-				10000000000000000000175F /* UnknownFieldSet_Builder.h */,
+				100000000000000000000DB9 /* MutableField.h */,
+				100000000000000000001759 /* UnknownFieldSet.h */,
+				100000000000000000001761 /* UnknownFieldSet_Builder.h */,
 				1000000000000000000009A3 /* Field.m */,
-				100000000000000000000DB8 /* MutableField.m */,
-				100000000000000000001758 /* UnknownFieldSet.m */,
-				100000000000000000001760 /* UnknownFieldSet_Builder.m */,
+				100000000000000000000DBA /* MutableField.m */,
+				10000000000000000000175A /* UnknownFieldSet.m */,
+				100000000000000000001762 /* UnknownFieldSet_Builder.m */,
 			);
 			name = Fields;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 		1000000000000000000009EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10000000000000000000125D /* SenTestingKit.framework */,
+				10000000000000000000125F /* SenTestingKit.framework */,
 				1000000000000000000009CC /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -289,94 +289,94 @@
 			children = (
 				100000000000000000000685 /* CodedInputStream.h */,
 				10000000000000000000068F /* CodedOutputStream.h */,
-				1000000000000000000015BF /* TextFormat.h */,
-				1000000000000000000017BB /* WireFormat.h */,
+				1000000000000000000015C1 /* TextFormat.h */,
+				1000000000000000000017BD /* WireFormat.h */,
 				100000000000000000000686 /* CodedInputStream.m */,
 				100000000000000000000690 /* CodedOutputStream.m */,
-				1000000000000000000015C0 /* TextFormat.m */,
-				1000000000000000000017BC /* WireFormat.m */,
+				1000000000000000000015C2 /* TextFormat.m */,
+				1000000000000000000017BE /* WireFormat.m */,
 			);
 			name = IO;
 			sourceTree = "<group>";
 		};
-		100000000000000000000D37 /* Messages */ = {
+		100000000000000000000D39 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
 				1000000000000000000003C5 /* AbstractMessage.h */,
 				1000000000000000000003C9 /* AbstractMessage_Builder.h */,
-				100000000000000000000D15 /* Message.h */,
-				100000000000000000000D36 /* Message_Builder.h */,
+				100000000000000000000D17 /* Message.h */,
+				100000000000000000000D38 /* Message_Builder.h */,
 				1000000000000000000003C6 /* AbstractMessage.m */,
 				1000000000000000000003CA /* AbstractMessage_Builder.m */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
 		};
-		100000000000000000000F03 /* Other Sources */ = {
+		100000000000000000000F05 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1000000000000000000010EA /* ProtocolBuffers_Prefix.pch */,
+				1000000000000000000010EC /* ProtocolBuffers_Prefix.pch */,
 				100000000000000000000577 /* Bootstrap.h */,
 				1000000000000000000009BC /* ForwardDeclarations.h */,
-				1000000000000000000010E7 /* ProtocolBuffers.h */,
+				1000000000000000000010E9 /* ProtocolBuffers.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		1000000000000000000010C9 /* Products */ = {
+		1000000000000000000010CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000001976 /* libProtocolBuffers.a */,
-				100000000000000000001742 /* UnitTests.octest */,
+				100000000000000000001978 /* libProtocolBuffers.a */,
+				100000000000000000001744 /* UnitTests.octest */,
 				100000000000000000000787 /* CommandLineTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10000000000000000000119D /* Resources */ = {
+		10000000000000000000119F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1000000000000000000010E5 /* ProtocolBuffers-Info.plist */,
-				100000000000000000001740 /* UnitTests-Info.plist */,
+				1000000000000000000010E7 /* ProtocolBuffers-Info.plist */,
+				100000000000000000001742 /* UnitTests-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1000000000000000000015B7 /* Tests */ = {
+		1000000000000000000015B9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				100000000000000000000689 /* CodedInputStreamTests.h */,
 				10000000000000000000068C /* CodedOuputStreamTests.h */,
 				1000000000000000000007E9 /* CoreTests.h */,
 				100000000000000000000A44 /* GeneratedMessageTests.h */,
-				100000000000000000000D19 /* MessageTests.h */,
-				100000000000000000000D7A /* MicroTest.h */,
-				1000000000000000000012DA /* SmallBlockInputStream.h */,
-				1000000000000000000015B3 /* TestUtilities.h */,
-				100000000000000000001746 /* Unittest.pb.h */,
-				10000000000000000000174A /* UnittestEmbedOptimizeFor.pb.h */,
-				10000000000000000000174D /* UnittestImport.pb.h */,
-				100000000000000000001751 /* UnittestMset.pb.h */,
-				100000000000000000001754 /* UnittestOptimizeFor.pb.h */,
-				10000000000000000000175B /* UnknownFieldSetTest.h */,
-				10000000000000000000178D /* UtilitiesTests.h */,
-				1000000000000000000017BF /* WireFormatTests.h */,
+				100000000000000000000D1B /* MessageTests.h */,
+				100000000000000000000D7C /* MicroTest.h */,
+				1000000000000000000012DC /* SmallBlockInputStream.h */,
+				1000000000000000000015B5 /* TestUtilities.h */,
+				100000000000000000001748 /* Unittest.pb.h */,
+				10000000000000000000174C /* UnittestEmbedOptimizeFor.pb.h */,
+				10000000000000000000174F /* UnittestImport.pb.h */,
+				100000000000000000001753 /* UnittestMset.pb.h */,
+				100000000000000000001756 /* UnittestOptimizeFor.pb.h */,
+				10000000000000000000175D /* UnknownFieldSetTest.h */,
+				10000000000000000000178F /* UtilitiesTests.h */,
+				1000000000000000000017C1 /* WireFormatTests.h */,
 				10000000000000000000068A /* CodedInputStreamTests.m */,
 				10000000000000000000068D /* CodedOuputStreamTests.m */,
 				1000000000000000000007EA /* CoreTests.m */,
 				100000000000000000000A45 /* GeneratedMessageTests.m */,
-				100000000000000000000D1A /* MessageTests.m */,
-				100000000000000000000D7B /* MicroTest.m */,
-				1000000000000000000012DB /* SmallBlockInputStream.m */,
-				1000000000000000000015B4 /* TestUtilities.m */,
-				100000000000000000001747 /* Unittest.pb.m */,
-				10000000000000000000174B /* UnittestEmbedOptimizeFor.pb.m */,
-				10000000000000000000174E /* UnittestImport.pb.m */,
-				100000000000000000001752 /* UnittestMset.pb.m */,
-				100000000000000000001755 /* UnittestOptimizeFor.pb.m */,
-				10000000000000000000175C /* UnknownFieldSetTest.m */,
-				10000000000000000000178E /* UtilitiesTests.m */,
-				1000000000000000000017C0 /* WireFormatTests.m */,
+				100000000000000000000D1C /* MessageTests.m */,
+				100000000000000000000D7D /* MicroTest.m */,
+				1000000000000000000012DD /* SmallBlockInputStream.m */,
+				1000000000000000000015B6 /* TestUtilities.m */,
+				100000000000000000001749 /* Unittest.pb.m */,
+				10000000000000000000174D /* UnittestEmbedOptimizeFor.pb.m */,
+				100000000000000000001750 /* UnittestImport.pb.m */,
+				100000000000000000001754 /* UnittestMset.pb.m */,
+				100000000000000000001757 /* UnittestOptimizeFor.pb.m */,
+				10000000000000000000175E /* UnknownFieldSetTest.m */,
+				100000000000000000001790 /* UtilitiesTests.m */,
+				1000000000000000000017C2 /* WireFormatTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000000DB3 /* MutableExtensionRegistry.h in Headers */,
+				100000000000000000000DB5 /* MutableExtensionRegistry.h in Headers */,
 				100000000000000000000943 /* ExtensionField.h in Headers */,
 				10000000000000000000093E /* ExtendableMessage_Builder.h in Headers */,
 				100000000000000000000791 /* ConcreteExtensionField.h in Headers */,
@@ -402,8 +402,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1000000000000000000005E8 /* Build configuration list for PBXNativeTarget "CommandLineTests" */;
 			buildPhases = (
-				1000000000000000000011A3 /* Resources */,
-				1000000000000000000012E6 /* Sources */,
+				1000000000000000000011A5 /* Resources */,
+				1000000000000000000012E8 /* Sources */,
 				1000000000000000000009EF /* Frameworks */,
 			);
 			buildRules = (
@@ -415,12 +415,12 @@
 			productReference = 100000000000000000000787 /* CommandLineTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1000000000000000000010E4 /* ProtocolBuffers */ = {
+		1000000000000000000010E6 /* ProtocolBuffers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1000000000000000000005F5 /* Build configuration list for PBXNativeTarget "ProtocolBuffers" */;
 			buildPhases = (
 				100000000000000000000A66 /* Headers */,
-				1000000000000000000012E5 /* Sources */,
+				1000000000000000000012E7 /* Sources */,
 				1000000000000000000009ED /* Frameworks */,
 			);
 			buildRules = (
@@ -429,32 +429,32 @@
 			);
 			name = ProtocolBuffers;
 			productName = "ProtocolBuffers-iPhoneDevice";
-			productReference = 100000000000000000001976 /* libProtocolBuffers.a */;
+			productReference = 100000000000000000001978 /* libProtocolBuffers.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		10000000000000000000173F /* UnitTests */ = {
+		100000000000000000001741 /* UnitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 100000000000000000000601 /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
-				10000000000000000000119E /* Resources */,
-				1000000000000000000012E4 /* Sources */,
+				1000000000000000000011A0 /* Resources */,
+				1000000000000000000012E6 /* Sources */,
 				1000000000000000000009EC /* Frameworks */,
-				1000000000000000000012BC /* ShellScript */,
+				1000000000000000000012BE /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				100000000000000000000F8F /* PBXTargetDependency */,
+				100000000000000000000F91 /* PBXTargetDependency */,
 			);
 			name = UnitTests;
 			productName = UnitTests;
-			productReference = 100000000000000000001742 /* UnitTests.octest */;
+			productReference = 100000000000000000001744 /* UnitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1000000000000000000010DF /* Project object */ = {
+		1000000000000000000010E1 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 10000000000000000000064D /* Build configuration list for PBXProject "ProtocolBuffers" */;
 			compatibilityVersion = "Xcode 3.1";
@@ -463,22 +463,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1000000000000000000010E4 /* ProtocolBuffers */,
-				10000000000000000000173F /* UnitTests */,
+				1000000000000000000010E6 /* ProtocolBuffers */,
+				100000000000000000001741 /* UnitTests */,
 				100000000000000000000786 /* CommandLineTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10000000000000000000119E /* Resources */ = {
+		1000000000000000000011A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1000000000000000000011A3 /* Resources */ = {
+		1000000000000000000011A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,7 +488,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1000000000000000000012BC /* ShellScript */ = {
+		1000000000000000000012BE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,7 +504,7 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1000000000000000000012E4 /* Sources */ = {
+		1000000000000000000012E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,22 +512,22 @@
 				10000000000000000000068E /* CodedOuputStreamTests.m in Sources */,
 				1000000000000000000007EB /* CoreTests.m in Sources */,
 				100000000000000000000A46 /* GeneratedMessageTests.m in Sources */,
-				100000000000000000000D1B /* MessageTests.m in Sources */,
-				100000000000000000000D7C /* MicroTest.m in Sources */,
-				1000000000000000000012DC /* SmallBlockInputStream.m in Sources */,
-				1000000000000000000015B5 /* TestUtilities.m in Sources */,
-				100000000000000000001748 /* Unittest.pb.m in Sources */,
-				10000000000000000000174C /* UnittestEmbedOptimizeFor.pb.m in Sources */,
-				10000000000000000000174F /* UnittestImport.pb.m in Sources */,
-				100000000000000000001753 /* UnittestMset.pb.m in Sources */,
-				100000000000000000001756 /* UnittestOptimizeFor.pb.m in Sources */,
-				10000000000000000000175D /* UnknownFieldSetTest.m in Sources */,
-				10000000000000000000178F /* UtilitiesTests.m in Sources */,
-				1000000000000000000017C1 /* WireFormatTests.m in Sources */,
+				100000000000000000000D1D /* MessageTests.m in Sources */,
+				100000000000000000000D7E /* MicroTest.m in Sources */,
+				1000000000000000000012DE /* SmallBlockInputStream.m in Sources */,
+				1000000000000000000015B7 /* TestUtilities.m in Sources */,
+				10000000000000000000174A /* Unittest.pb.m in Sources */,
+				10000000000000000000174E /* UnittestEmbedOptimizeFor.pb.m in Sources */,
+				100000000000000000001751 /* UnittestImport.pb.m in Sources */,
+				100000000000000000001755 /* UnittestMset.pb.m in Sources */,
+				100000000000000000001758 /* UnittestOptimizeFor.pb.m in Sources */,
+				10000000000000000000175F /* UnknownFieldSetTest.m in Sources */,
+				100000000000000000001791 /* UtilitiesTests.m in Sources */,
+				1000000000000000000017C3 /* WireFormatTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1000000000000000000012E5 /* Sources */ = {
+		1000000000000000000012E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,28 +540,28 @@
 				1000000000000000000009A4 /* Field.m in Sources */,
 				100000000000000000000A42 /* GeneratedMessage.m in Sources */,
 				100000000000000000000A49 /* GeneratedMessage_Builder.m in Sources */,
-				100000000000000000000DB9 /* MutableField.m in Sources */,
-				1000000000000000000015C1 /* TextFormat.m in Sources */,
-				100000000000000000001759 /* UnknownFieldSet.m in Sources */,
-				100000000000000000001761 /* UnknownFieldSet_Builder.m in Sources */,
-				10000000000000000000178B /* Utilities.m in Sources */,
-				1000000000000000000017BD /* WireFormat.m in Sources */,
-				100000000000000000000DB5 /* MutableExtensionRegistry.m in Sources */,
+				100000000000000000000DBB /* MutableField.m in Sources */,
+				1000000000000000000015C3 /* TextFormat.m in Sources */,
+				10000000000000000000175B /* UnknownFieldSet.m in Sources */,
+				100000000000000000001763 /* UnknownFieldSet_Builder.m in Sources */,
+				10000000000000000000178D /* Utilities.m in Sources */,
+				1000000000000000000017BF /* WireFormat.m in Sources */,
+				100000000000000000000DB7 /* MutableExtensionRegistry.m in Sources */,
 				100000000000000000000940 /* ExtendableMessage_Builder.m in Sources */,
 				100000000000000000000793 /* ConcreteExtensionField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1000000000000000000012E6 /* Sources */ = {
+		1000000000000000000012E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1000000000000000000017C2 /* WireFormatTests.m in Sources */,
-				1000000000000000000015B6 /* TestUtilities.m in Sources */,
-				10000000000000000000175E /* UnknownFieldSetTest.m in Sources */,
-				100000000000000000001750 /* UnittestImport.pb.m in Sources */,
-				100000000000000000001749 /* Unittest.pb.m in Sources */,
-				100000000000000000000D1C /* MessageTests.m in Sources */,
+				1000000000000000000017C4 /* WireFormatTests.m in Sources */,
+				1000000000000000000015B8 /* TestUtilities.m in Sources */,
+				100000000000000000001760 /* UnknownFieldSetTest.m in Sources */,
+				100000000000000000001752 /* UnittestImport.pb.m in Sources */,
+				10000000000000000000174B /* Unittest.pb.m in Sources */,
+				100000000000000000000D1E /* MessageTests.m in Sources */,
 				1000000000000000000003C8 /* AbstractMessage.m in Sources */,
 				1000000000000000000003CC /* AbstractMessage_Builder.m in Sources */,
 				100000000000000000000688 /* CodedInputStream.m in Sources */,
@@ -571,13 +571,13 @@
 				1000000000000000000009A5 /* Field.m in Sources */,
 				100000000000000000000A43 /* GeneratedMessage.m in Sources */,
 				100000000000000000000A4A /* GeneratedMessage_Builder.m in Sources */,
-				100000000000000000000DBA /* MutableField.m in Sources */,
-				1000000000000000000015C2 /* TextFormat.m in Sources */,
-				10000000000000000000175A /* UnknownFieldSet.m in Sources */,
-				100000000000000000001762 /* UnknownFieldSet_Builder.m in Sources */,
-				10000000000000000000178C /* Utilities.m in Sources */,
-				1000000000000000000017BE /* WireFormat.m in Sources */,
-				100000000000000000000DB6 /* MutableExtensionRegistry.m in Sources */,
+				100000000000000000000DBC /* MutableField.m in Sources */,
+				1000000000000000000015C4 /* TextFormat.m in Sources */,
+				10000000000000000000175C /* UnknownFieldSet.m in Sources */,
+				100000000000000000001764 /* UnknownFieldSet_Builder.m in Sources */,
+				10000000000000000000178E /* Utilities.m in Sources */,
+				1000000000000000000017C0 /* WireFormat.m in Sources */,
+				100000000000000000000DB8 /* MutableExtensionRegistry.m in Sources */,
 				100000000000000000000941 /* ExtendableMessage_Builder.m in Sources */,
 				100000000000000000000794 /* ConcreteExtensionField.m in Sources */,
 				100000000000000000000CB8 /* Main.m in Sources */,
@@ -587,10 +587,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		100000000000000000000F8F /* PBXTargetDependency */ = {
+		100000000000000000000F91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1000000000000000000010E4 /* ProtocolBuffers */;
-			targetProxy = 100000000000000000000F13 /* PBXContainerItemProxy */;
+			target = 1000000000000000000010E6 /* ProtocolBuffers */;
+			targetProxy = 100000000000000000000F15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -688,7 +688,7 @@
 			};
 			name = Debug;
 		};
-		100000000000000000001157 /* Release */ = {
+		100000000000000000001159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -715,13 +715,13 @@
 			};
 			name = Release;
 		};
-		100000000000000000001158 /* Release */ = {
+		10000000000000000000115A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		100000000000000000001159 /* Release */ = {
+		10000000000000000000115B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -754,7 +754,7 @@
 			};
 			name = Release;
 		};
-		10000000000000000000115C /* Release */ = {
+		10000000000000000000115E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -784,7 +784,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10000000000000000000088C /* Debug */,
-				100000000000000000001159 /* Release */,
+				10000000000000000000115B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -793,7 +793,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10000000000000000000088B /* Debug */,
-				100000000000000000001158 /* Release */,
+				10000000000000000000115A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,7 +802,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10000000000000000000088A /* Debug */,
-				100000000000000000001157 /* Release */,
+				100000000000000000001159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -811,12 +811,12 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10000000000000000000088E /* Debug */,
-				10000000000000000000115C /* Release */,
+				10000000000000000000115E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1000000000000000000010DF /* Project object */;
+	rootObject = 1000000000000000000010E1 /* Project object */;
 }
