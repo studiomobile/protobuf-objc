@@ -174,15 +174,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		100000000000000000000B9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				100000000000000000001EFB /* libProtocolBuffers.a in Frameworks */,
-				1000000000000000000016C2 /* SenTestingKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		100000000000000000000B99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				100000000000000000000AD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000001EFB /* libProtocolBuffers.a in Frameworks */,
+				1000000000000000000016C2 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,31 +504,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1000000000000000000017FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1000000000000000000003C9 /* AbstractMessage.m in Sources */,
-				1000000000000000000003CD /* AbstractMessage_Builder.m in Sources */,
-				1000000000000000000006A8 /* CodedInputStream.m in Sources */,
-				1000000000000000000006B1 /* CodedOutputStream.m in Sources */,
-				100000000000000000000A17 /* ExtendableMessage.m in Sources */,
-				100000000000000000000A24 /* ExtensionRegistry.m in Sources */,
-				100000000000000000000A87 /* Field.m in Sources */,
-				100000000000000000000BB6 /* GeneratedMessage.m in Sources */,
-				100000000000000000000BBD /* GeneratedMessage_Builder.m in Sources */,
-				100000000000000000000F5B /* MutableField.m in Sources */,
-				100000000000000000001ABA /* TextFormat.m in Sources */,
-				100000000000000000001C5B /* UnknownFieldSet.m in Sources */,
-				100000000000000000001C63 /* UnknownFieldSet_Builder.m in Sources */,
-				100000000000000000001C8E /* Utilities.m in Sources */,
-				100000000000000000001CC2 /* WireFormat.m in Sources */,
-				100000000000000000000F58 /* MutableExtensionRegistry.m in Sources */,
-				100000000000000000000A1C /* ExtendableMessage_Builder.m in Sources */,
-				1000000000000000000007BA /* ConcreteExtensionField.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1000000000000000000017FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +533,31 @@
 				100000000000000000000A1D /* ExtendableMessage_Builder.m in Sources */,
 				1000000000000000000007B9 /* ConcreteExtensionField.m in Sources */,
 				100000000000000000000E46 /* Main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1000000000000000000017FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1000000000000000000003C9 /* AbstractMessage.m in Sources */,
+				1000000000000000000003CD /* AbstractMessage_Builder.m in Sources */,
+				1000000000000000000006A8 /* CodedInputStream.m in Sources */,
+				1000000000000000000006B1 /* CodedOutputStream.m in Sources */,
+				100000000000000000000A17 /* ExtendableMessage.m in Sources */,
+				100000000000000000000A24 /* ExtensionRegistry.m in Sources */,
+				100000000000000000000A87 /* Field.m in Sources */,
+				100000000000000000000BB6 /* GeneratedMessage.m in Sources */,
+				100000000000000000000BBD /* GeneratedMessage_Builder.m in Sources */,
+				100000000000000000000F5B /* MutableField.m in Sources */,
+				100000000000000000001ABA /* TextFormat.m in Sources */,
+				100000000000000000001C5B /* UnknownFieldSet.m in Sources */,
+				100000000000000000001C63 /* UnknownFieldSet_Builder.m in Sources */,
+				100000000000000000001C8E /* Utilities.m in Sources */,
+				100000000000000000001CC2 /* WireFormat.m in Sources */,
+				100000000000000000000F58 /* MutableExtensionRegistry.m in Sources */,
+				100000000000000000000A1C /* ExtendableMessage_Builder.m in Sources */,
+				1000000000000000000007BA /* ConcreteExtensionField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,12 +623,6 @@
 			};
 			name = Debug;
 		};
-		1000000000000000000009A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
 		1000000000000000000009A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -662,6 +656,12 @@
 			};
 			name = Debug;
 		};
+		1000000000000000000009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
 		1000000000000000000009A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -687,6 +687,29 @@
 				SDKROOT = iphonesimulator3.0;
 			};
 			name = Debug;
+		};
+		1000000000000000000015E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
 		};
 		1000000000000000000015E4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -721,6 +744,12 @@
 			};
 			name = Release;
 		};
+		1000000000000000000015E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		1000000000000000000015E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -745,35 +774,6 @@
 				PRODUCT_NAME = UnitTests;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		1000000000000000000015E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		1000000000000000000015E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = iphonesimulator3.0;
 			};
 			name = Release;
 		};
