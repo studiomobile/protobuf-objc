@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100000000000000000002110 /* widget.cc in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000210F /* widget.cc */; };
-		100000000000000000002112 /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000002111 /* widget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		100000000000000000002114 /* widget_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000002113 /* widget_test.cc */; };
-		100000000000000000001CD7 /* Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001CD6 /* Widget.framework */; };
-		100000000000000000001DD7 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001D8C /* gtest.framework */; };
+		100000000000000000002114 /* widget.cc in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000002113 /* widget.cc */; };
+		100000000000000000002116 /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000000000002115 /* widget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100000000000000000002118 /* widget_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000002117 /* widget_test.cc */; };
+		100000000000000000001CDB /* Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001CDA /* Widget.framework */; };
+		100000000000000000001DDB /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000000000001D90 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1000000000000000000011AE /* PBXContainerItemProxy */ = {
+		1000000000000000000011AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1000000000000000000014B4 /* Project object */;
 			proxyType = 1;
@@ -25,13 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		100000000000000000001CDB /* WidgetFrameworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WidgetFrameworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10000000000000000000210F /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
-		100000000000000000002111 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
-		100000000000000000002113 /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget_test.cc; sourceTree = "<group>"; };
-		100000000000000000001D8C /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../build/Debug/gtest.framework; sourceTree = "<group>"; };
+		100000000000000000001CDF /* WidgetFrameworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WidgetFrameworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000002113 /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
+		100000000000000000002115 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		100000000000000000002117 /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget_test.cc; sourceTree = "<group>"; };
+		100000000000000000001D90 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../build/Debug/gtest.framework; sourceTree = "<group>"; };
 		100000000000000000000CA6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		100000000000000000001CD6 /* Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000001CDA /* Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000001CD7 /* Widget.framework in Frameworks */,
-				100000000000000000001DD7 /* gtest.framework in Frameworks */,
+				100000000000000000001CDB /* Widget.framework in Frameworks */,
+				100000000000000000001DDB /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,13 +57,13 @@
 		1000000000000000000014A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000001CD6 /* Widget.framework */,
-				100000000000000000001CDB /* WidgetFrameworkTest */,
+				100000000000000000001CDA /* Widget.framework */,
+				100000000000000000001CDF /* WidgetFrameworkTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		100000000000000000001D35 /* gTestExample */ = {
+		100000000000000000001D39 /* gTestExample */ = {
 			isa = PBXGroup;
 			children = (
 				100000000000000000001767 /* Source */,
@@ -78,7 +78,7 @@
 		100000000000000000000B02 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000001D8C /* gtest.framework */,
+				100000000000000000001D90 /* gtest.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -94,8 +94,8 @@
 		100000000000000000001767 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				10000000000000000000210F /* widget.cc */,
-				100000000000000000002111 /* widget.h */,
+				100000000000000000002113 /* widget.cc */,
+				100000000000000000002115 /* widget.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 		100000000000000000001AC1 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000002113 /* widget_test.cc */,
+				100000000000000000002117 /* widget_test.cc */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -115,14 +115,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000002112 /* widget.h in Headers */,
+				100000000000000000002116 /* widget.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		100000000000000000001CDA /* WidgetFrameworkTest */ = {
+		100000000000000000001CDE /* WidgetFrameworkTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10000000000000000000062B /* Build configuration list for PBXNativeTarget "WidgetFrameworkTest" */;
 			buildPhases = (
@@ -136,10 +136,10 @@
 			);
 			name = WidgetFrameworkTest;
 			productName = gTestExampleTest;
-			productReference = 100000000000000000001CDB /* WidgetFrameworkTest */;
+			productReference = 100000000000000000001CDF /* WidgetFrameworkTest */;
 			productType = "com.apple.product-type.tool";
 		};
-		100000000000000000001D37 /* WidgetFramework */ = {
+		100000000000000000001D3B /* WidgetFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10000000000000000000062D /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
 			buildPhases = (
@@ -156,7 +156,7 @@
 			name = WidgetFramework;
 			productInstallPath = "$(HOME)/Library/Frameworks";
 			productName = gTestExample;
-			productReference = 100000000000000000001CD6 /* Widget.framework */;
+			productReference = 100000000000000000001CDA /* Widget.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -167,13 +167,13 @@
 			buildConfigurationList = 10000000000000000000067B /* Build configuration list for PBXProject "WidgetFramework" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 100000000000000000001D35 /* gTestExample */;
+			mainGroup = 100000000000000000001D39 /* gTestExample */;
 			productRefGroup = 1000000000000000000014A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100000000000000000001D37 /* WidgetFramework */,
-				100000000000000000001CDA /* WidgetFrameworkTest */,
+				100000000000000000001D3B /* WidgetFramework */,
+				100000000000000000001CDE /* WidgetFrameworkTest */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000002114 /* widget_test.cc in Sources */,
+				100000000000000000002118 /* widget_test.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000000000002110 /* widget.cc in Sources */,
+				100000000000000000002114 /* widget.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +220,8 @@
 /* Begin PBXTargetDependency section */
 		100000000000000000001316 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000000000001D37 /* WidgetFramework */;
-			targetProxy = 1000000000000000000011AE /* PBXContainerItemProxy */;
+			target = 100000000000000000001D3B /* WidgetFramework */;
+			targetProxy = 1000000000000000000011AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
