@@ -994,7 +994,7 @@
 		100000000000002C00000061 /* production.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = production.cc; sourceTree = "<group>"; };
 		100000000000002C00000063 /* production.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = production.h; sourceTree = "<group>"; };
 		100000000000000F0000009A /* InternalTestTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = InternalTestTarget.xcconfig; sourceTree = "<group>"; };
-		10000000000000190000013D /* TestTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TestTarget.xcconfig; sourceTree = "<group>"; };
+		100000000000001900000141 /* TestTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TestTarget.xcconfig; sourceTree = "<group>"; };
 		100000000000002D00000004 /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
 		100000000000002E00000004 /* sample1_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample1_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100000000000002E00000010 /* sample3_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample3_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1618,7 +1618,7 @@
 				100000000000000F00000099 /* InternalPythonTestTarget.xcconfig */,
 				100000000000000F0000009A /* InternalTestTarget.xcconfig */,
 				10000000000000170000005E /* ReleaseProject.xcconfig */,
-				10000000000000190000013D /* TestTarget.xcconfig */,
+				100000000000001900000141 /* TestTarget.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -3245,7 +3245,7 @@
 		};
 		100000000000000A0000004B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3259,7 +3259,7 @@
 		};
 		10000000000000170000002F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3966,7 +3966,7 @@
 		};
 		100000000000000A00000063 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3980,7 +3980,7 @@
 		};
 		10000000000000170000002C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3994,7 +3994,7 @@
 		};
 		100000000000000A00000064 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4008,7 +4008,7 @@
 		};
 		100000000000001700000048 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4022,7 +4022,7 @@
 		};
 		100000000000000A00000065 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4036,7 +4036,7 @@
 		};
 		100000000000001700000029 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4050,7 +4050,7 @@
 		};
 		100000000000000A00000066 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4064,7 +4064,7 @@
 		};
 		100000000000001700000049 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4078,7 +4078,7 @@
 		};
 		100000000000000A00000067 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4092,7 +4092,7 @@
 		};
 		10000000000000170000004A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4157,7 +4157,7 @@
 		};
 		100000000000000A0000006B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4171,7 +4171,7 @@
 		};
 		10000000000000170000004E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4185,7 +4185,7 @@
 		};
 		100000000000000A0000006C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4199,7 +4199,7 @@
 		};
 		10000000000000170000004F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10000000000000190000013D /* TestTarget.xcconfig */;
+			baseConfigurationReference = 100000000000001900000141 /* TestTarget.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

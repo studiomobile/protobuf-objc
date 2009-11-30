@@ -50,10 +50,10 @@
 		100000000000001800000070 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000180000006F /* SenTestingKit.framework */; };
 		100000000000001800000071 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10000000000000180000006F /* SenTestingKit.framework */; };
 		1000000000000018000000E2 /* SmallBlockInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000018000000E1 /* SmallBlockInputStream.m */; };
-		100000000000001900000140 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000013F /* TestUtilities.m */; };
-		100000000000001900000141 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000013F /* TestUtilities.m */; };
-		10000000000000190000014C /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000014B /* TextFormat.m */; };
-		10000000000000190000014D /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000014B /* TextFormat.m */; };
+		100000000000001900000144 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001900000143 /* TestUtilities.m */; };
+		100000000000001900000145 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001900000143 /* TestUtilities.m */; };
+		100000000000001900000150 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000014F /* TextFormat.m */; };
+		100000000000001900000151 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000190000014F /* TextFormat.m */; };
 		100000000000001A00000056 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000055 /* Unittest.pb.m */; };
 		100000000000001A00000057 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000055 /* Unittest.pb.m */; };
 		100000000000001A0000005A /* UnittestEmbedOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000059 /* UnittestEmbedOptimizeFor.pb.m */; };
@@ -140,10 +140,10 @@
 		10000000000000180000006F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1000000000000018000000E0 /* SmallBlockInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallBlockInputStream.h; path = Tests/SmallBlockInputStream.h; sourceTree = "<group>"; };
 		1000000000000018000000E1 /* SmallBlockInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallBlockInputStream.m; path = Tests/SmallBlockInputStream.m; sourceTree = "<group>"; };
-		10000000000000190000013E /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
-		10000000000000190000013F /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUtilities.m; path = Tests/TestUtilities.m; sourceTree = "<group>"; };
-		10000000000000190000014A /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
-		10000000000000190000014B /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
+		100000000000001900000142 /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
+		100000000000001900000143 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUtilities.m; path = Tests/TestUtilities.m; sourceTree = "<group>"; };
+		10000000000000190000014E /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		10000000000000190000014F /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
 		100000000000001A0000004E /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		100000000000001A00000050 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100000000000001A00000054 /* Unittest.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unittest.pb.h; path = Tests/Unittest.pb.h; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		1000000000000009000001D4 /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000001900000143 /* Tests */,
+				100000000000001900000147 /* Tests */,
 				100000000000000900000025 /* Classes */,
 				10000000000000140000003F /* Other Sources */,
 				10000000000000170000006D /* Resources */,
@@ -289,11 +289,11 @@
 			children = (
 				10000000000000090000002F /* CodedInputStream.h */,
 				100000000000000900000039 /* CodedOutputStream.h */,
-				10000000000000190000014A /* TextFormat.h */,
+				10000000000000190000014E /* TextFormat.h */,
 				100000000000001C00000013 /* WireFormat.h */,
 				100000000000000900000030 /* CodedInputStream.m */,
 				10000000000000090000003A /* CodedOutputStream.m */,
-				10000000000000190000014B /* TextFormat.m */,
+				10000000000000190000014F /* TextFormat.m */,
 				100000000000001C00000014 /* WireFormat.m */,
 			);
 			name = IO;
@@ -342,7 +342,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		100000000000001900000143 /* Tests */ = {
+		100000000000001900000147 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				100000000000000900000033 /* CodedInputStreamTests.h */,
@@ -352,7 +352,7 @@
 				1000000000000012000000A3 /* MessageTests.h */,
 				100000000000001200000100 /* MicroTest.h */,
 				1000000000000018000000E0 /* SmallBlockInputStream.h */,
-				10000000000000190000013E /* TestUtilities.h */,
+				100000000000001900000142 /* TestUtilities.h */,
 				100000000000001A00000054 /* Unittest.pb.h */,
 				100000000000001A00000058 /* UnittestEmbedOptimizeFor.pb.h */,
 				100000000000001A0000005B /* UnittestImport.pb.h */,
@@ -368,7 +368,7 @@
 				1000000000000012000000A4 /* MessageTests.m */,
 				100000000000001200000101 /* MicroTest.m */,
 				1000000000000018000000E1 /* SmallBlockInputStream.m */,
-				10000000000000190000013F /* TestUtilities.m */,
+				100000000000001900000143 /* TestUtilities.m */,
 				100000000000001A00000055 /* Unittest.pb.m */,
 				100000000000001A00000059 /* UnittestEmbedOptimizeFor.pb.m */,
 				100000000000001A0000005C /* UnittestImport.pb.m */,
@@ -509,7 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100000000000001C0000001A /* WireFormatTests.m in Sources */,
-				100000000000001900000141 /* TestUtilities.m in Sources */,
+				100000000000001900000145 /* TestUtilities.m in Sources */,
 				100000000000001A0000006B /* UnknownFieldSetTest.m in Sources */,
 				100000000000001A0000005D /* UnittestImport.pb.m in Sources */,
 				100000000000001A00000056 /* Unittest.pb.m in Sources */,
@@ -524,7 +524,7 @@
 				100000000000000D00000006 /* GeneratedMessage.m in Sources */,
 				100000000000000D0000000D /* GeneratedMessage_Builder.m in Sources */,
 				100000000000001200000140 /* MutableField.m in Sources */,
-				10000000000000190000014D /* TextFormat.m in Sources */,
+				100000000000001900000151 /* TextFormat.m in Sources */,
 				100000000000001A00000067 /* UnknownFieldSet.m in Sources */,
 				100000000000001A00000070 /* UnknownFieldSet_Builder.m in Sources */,
 				100000000000001A0000009B /* Utilities.m in Sources */,
@@ -550,7 +550,7 @@
 				100000000000000D00000005 /* GeneratedMessage.m in Sources */,
 				100000000000000D0000000C /* GeneratedMessage_Builder.m in Sources */,
 				10000000000000120000013F /* MutableField.m in Sources */,
-				10000000000000190000014C /* TextFormat.m in Sources */,
+				100000000000001900000150 /* TextFormat.m in Sources */,
 				100000000000001A00000068 /* UnknownFieldSet.m in Sources */,
 				100000000000001A0000006F /* UnknownFieldSet_Builder.m in Sources */,
 				100000000000001A0000009A /* Utilities.m in Sources */,
@@ -572,7 +572,7 @@
 				1000000000000012000000A5 /* MessageTests.m in Sources */,
 				100000000000001200000102 /* MicroTest.m in Sources */,
 				1000000000000018000000E2 /* SmallBlockInputStream.m in Sources */,
-				100000000000001900000140 /* TestUtilities.m in Sources */,
+				100000000000001900000144 /* TestUtilities.m in Sources */,
 				100000000000001A00000057 /* Unittest.pb.m in Sources */,
 				100000000000001A0000005A /* UnittestEmbedOptimizeFor.pb.m in Sources */,
 				100000000000001A0000005E /* UnittestImport.pb.m in Sources */,
