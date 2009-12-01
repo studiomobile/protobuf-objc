@@ -63,19 +63,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		100000000000002500000002 /* gTestExample */ = {
+		1000000000000017000000A6 /* gTestExample */ = {
 			isa = PBXGroup;
 			children = (
 				1000000000000018000000E4 /* Source */,
 				10000000000000170000006F /* Resources */,
 				10000000000000190000013B /* Test */,
-				100000000000000C000000A7 /* External Frameworks and Libraries */,
+				100000000000000B00000036 /* External Frameworks and Libraries */,
 				1000000000000015000001D5 /* Products */,
 			);
 			name = gTestExample;
 			sourceTree = "<group>";
 		};
-		100000000000000C000000A7 /* External Frameworks and Libraries */ = {
+		100000000000000B00000036 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
 				100000000000002500000058 /* gtest.framework */,
@@ -139,9 +139,9 @@
 			productReference = 100000000000001C00000010 /* WidgetFrameworkTest */;
 			productType = "com.apple.product-type.tool";
 		};
-		100000000000002500000003 /* WidgetFramework */ = {
+		100000000000001C0000000E /* WidgetFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100000000000000800000133 /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
+			buildConfigurationList = 100000000000000800000130 /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
 			buildPhases = (
 				100000000000001800000118 /* Sources */,
 				100000000000000C000000AC /* Frameworks */,
@@ -164,15 +164,15 @@
 /* Begin PBXProject section */
 		1000000000000015000001E1 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 100000000000000800000181 /* Build configuration list for PBXProject "WidgetFramework" */;
+			buildConfigurationList = 10000000000000080000017F /* Build configuration list for PBXProject "WidgetFramework" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 100000000000002500000002 /* gTestExample */;
+			mainGroup = 1000000000000017000000A6 /* gTestExample */;
 			productRefGroup = 1000000000000015000001D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100000000000002500000003 /* WidgetFramework */,
+				100000000000001C0000000E /* WidgetFramework */,
 				100000000000001C0000000F /* WidgetFrameworkTest */,
 			);
 		};
@@ -220,7 +220,7 @@
 /* Begin PBXTargetDependency section */
 		1000000000000015000000AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* WidgetFramework */;
+			target = 100000000000001C0000000E /* WidgetFramework */;
 			targetProxy = 10000000000000150000003A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -311,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000800000133 /* Build configuration list for PBXNativeTarget "WidgetFramework" */ = {
+		100000000000000800000130 /* Build configuration list for PBXNativeTarget "WidgetFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100000000000000A00000071 /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000800000181 /* Build configuration list for PBXProject "WidgetFramework" */ = {
+		10000000000000080000017F /* Build configuration list for PBXProject "WidgetFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100000000000000A00000072 /* Debug */,

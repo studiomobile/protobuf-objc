@@ -1434,7 +1434,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		100000000000002500000002 /* gtest */ = {
+		1000000000000017000000A6 /* gtest */ = {
 			isa = PBXGroup;
 			children = (
 				100000000000000900000131 /* Config */,
@@ -2299,9 +2299,9 @@
 			productReference = 10000000000000250000001D /* gtest-linked_ptr_test */;
 			productType = "com.apple.product-type.tool";
 		};
-		100000000000002500000003 /* gtest */ = {
+		100000000000001C0000000E /* gtest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100000000000000800000133 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildConfigurationList = 100000000000000800000130 /* Build configuration list for PBXNativeTarget "gtest" */;
 			buildPhases = (
 				100000000000001800000118 /* Sources */,
 				100000000000000E00000006 /* Headers */,
@@ -2325,7 +2325,7 @@
 /* Begin PBXProject section */
 		1000000000000015000001E1 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 100000000000000800000181 /* Build configuration list for PBXProject "gtest" */;
+			buildConfigurationList = 10000000000000080000017F /* Build configuration list for PBXProject "gtest" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -2335,12 +2335,12 @@
 				German,
 				en,
 			);
-			mainGroup = 100000000000002500000002 /* gtest */;
+			mainGroup = 1000000000000017000000A6 /* gtest */;
 			productRefGroup = 1000000000000015000001D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100000000000002500000003 /* gtest */,
+				100000000000001C0000000E /* gtest */,
 				100000000000000900000021 /* Check */,
 				100000000000002E00000006 /* sample1_unittest */,
 				100000000000002E0000000D /* sample2_unittest */,
@@ -2766,17 +2766,17 @@
 /* Begin PBXTargetDependency section */
 		1000000000000015000000AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000003E /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000003F /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000040 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B0 /* PBXTargetDependency */ = {
@@ -2791,122 +2791,122 @@
 		};
 		1000000000000015000000B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000043 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000044 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000045 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000046 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000047 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000048 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000049 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004A /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000003B /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004B /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004C /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004D /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004E /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000004F /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000050 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000051 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000052 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000053 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000054 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000055 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000056 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000057 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000058 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000059 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000CA /* PBXTargetDependency */ = {
@@ -3006,27 +3006,27 @@
 		};
 		1000000000000015000000DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000006B /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000006C /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000006D /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000006E /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000038 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000E0 /* PBXTargetDependency */ = {
@@ -3136,12 +3136,12 @@
 		};
 		1000000000000015000000F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000084 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000085 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000F7 /* PBXTargetDependency */ = {
@@ -3156,7 +3156,7 @@
 		};
 		1000000000000015000000F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 100000000000001500000088 /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000FA /* PBXTargetDependency */ = {
@@ -3166,12 +3166,12 @@
 		};
 		1000000000000015000000FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000003D /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100000000000002500000003 /* gtest */;
+			target = 100000000000001C0000000E /* gtest */;
 			targetProxy = 10000000000000150000008A /* PBXContainerItemProxy */;
 		};
 		1000000000000015000000FD /* PBXTargetDependency */ = {
@@ -4717,7 +4717,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000800000133 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+		100000000000000800000130 /* Build configuration list for PBXNativeTarget "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100000000000000A00000071 /* Debug */,
@@ -4726,7 +4726,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100000000000000800000181 /* Build configuration list for PBXProject "gtest" */ = {
+		10000000000000080000017F /* Build configuration list for PBXProject "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100000000000000A00000072 /* Debug */,
