@@ -429,34 +429,6 @@ const int32_t BUFFER_SIZE = 4096;
 
 
 /**
- * Decode a ZigZag-encoded 32-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n An unsigned 32-bit integer, stored in a signed int
- * @return A signed 32-bit integer.
- */
-int32_t decodeZigZag32(int32_t n) {
-  return logicalRightShift32(n, 1) ^ -(n & 1);
-}
-
-
-/**
- * Decode a ZigZag-encoded 64-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n An unsigned 64-bit integer, stored in a signed int
- * @return A signed 64-bit integer.
- */
-int64_t decodeZigZag64(int64_t n) {
-  return logicalRightShift64(n, 1) ^ -(n & 1);
-}
-
-
-/**
  * Set the maximum message recursion depth.  In order to prevent malicious
  * messages from causing stack overflows, {@code PBCodedInputStream} limits
  * how deeply messages may be nested.  The default limit is 64.

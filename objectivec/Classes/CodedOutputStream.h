@@ -26,119 +26,33 @@
  *
  * @author Cyrus Najmabadi
  */
+
+@class RingBuffer;
+
 @interface PBCodedOutputStream : NSObject {
-    NSMutableData* buffer;
-    int32_t position;
-    NSOutputStream* output;
+    NSOutputStream *output;
+    RingBuffer *buffer;
 }
 
 + (PBCodedOutputStream*) streamWithData:(NSMutableData*) data;
 + (PBCodedOutputStream*) streamWithOutputStream:(NSOutputStream*) output;
 + (PBCodedOutputStream*) streamWithOutputStream:(NSOutputStream*) output bufferSize:(int32_t) bufferSize;
 
-
-/**
- * Encode a ZigZag-encoded 32-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n A signed 32-bit integer.
- * @return An unsigned 32-bit integer, stored in a signed int.
- */
-int32_t encodeZigZag32(int32_t n);
-
-/**
- * Encode a ZigZag-encoded 64-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n A signed 64-bit integer.
- * @return An unsigned 64-bit integer, stored in a signed int.
- */
-int64_t encodeZigZag64(int64_t n);
-
-int32_t computeDoubleSize(int32_t fieldNumber, Float64 value);
-int32_t computeFloatSize(int32_t fieldNumber, Float32 value);
-int32_t computeUInt64Size(int32_t fieldNumber, int64_t value);
-int32_t computeInt64Size(int32_t fieldNumber, int64_t value);
-int32_t computeInt32Size(int32_t fieldNumber, int32_t value);
-int32_t computeFixed64Size(int32_t fieldNumber, int64_t value);
-int32_t computeFixed32Size(int32_t fieldNumber, int32_t value);
-int32_t computeBoolSize(int32_t fieldNumber, BOOL value);
-int32_t computeStringSize(int32_t fieldNumber, NSString* value);
-int32_t computeGroupSize(int32_t fieldNumber, id<PBMessage> value);
-int32_t computeUnknownGroupSize(int32_t fieldNumber, PBUnknownFieldSet* value);
-int32_t computeMessageSize(int32_t fieldNumber, id<PBMessage> value);
-int32_t computeDataSize(int32_t fieldNumber, NSData* value);
-int32_t computeUInt32Size(int32_t fieldNumber, int32_t value);
-int32_t computeSFixed32Size(int32_t fieldNumber, int32_t value);
-int32_t computeSFixed64Size(int32_t fieldNumber, int64_t value);
-int32_t computeSInt32Size(int32_t fieldNumber, int32_t value);
-int32_t computeSInt64Size(int32_t fieldNumber, int64_t value);
-int32_t computeTagSize(int32_t fieldNumber);
-
-int32_t computeDoubleSizeNoTag(Float64 value);
-int32_t computeFloatSizeNoTag(Float32 value);
-int32_t computeUInt64SizeNoTag(int64_t value);
-int32_t computeInt64SizeNoTag(int64_t value);
-int32_t computeInt32SizeNoTag(int32_t value);
-int32_t computeFixed64SizeNoTag(int64_t value);
-int32_t computeFixed32SizeNoTag(int32_t value);
-int32_t computeBoolSizeNoTag(BOOL value);
-int32_t computeStringSizeNoTag(NSString* value);
-int32_t computeGroupSizeNoTag(id<PBMessage> value);
-int32_t computeUnknownGroupSizeNoTag(PBUnknownFieldSet* value);
-int32_t computeMessageSizeNoTag(id<PBMessage> value);
-int32_t computeDataSizeNoTag(NSData* value);
-int32_t computeUInt32SizeNoTag(int32_t value);
-int32_t computeEnumSizeNoTag(int32_t value);
-int32_t computeSFixed32SizeNoTag(int32_t value);
-int32_t computeSFixed64SizeNoTag(int64_t value);
-int32_t computeSInt32SizeNoTag(int32_t value);
-int32_t computeSInt64SizeNoTag(int64_t value);
-
-/**
- * Compute the number of bytes that would be needed to encode a varint.
- * {@code value} is treated as unsigned, so it won't be sign-extended if
- * negative.
- */
-int32_t computeRawVarint32Size(int32_t value);
-int32_t computeRawVarint64Size(int64_t value);
-
-/**
- * Compute the number of bytes that would be needed to encode a
- * MessageSet extension to the stream.  For historical reasons,
- * the wire format differs from normal fields.
- */
-int32_t computeMessageSetExtensionSize(int32_t fieldNumber, id<PBMessage> value);
-
-/**
- * Compute the number of bytes that would be needed to encode an
- * unparsed MessageSet extension field to the stream.  For
- * historical reasons, the wire format differs from normal fields.
- */
-int32_t computeRawMessageSetExtensionSize(int32_t fieldNumber, NSData* value);
-
-/**
- * Compute the number of bytes that would be needed to encode an
- * enum field, including tag.  Caller is responsible for converting the
- * enum value to its numeric value.
- */
-int32_t computeEnumSize(int32_t fieldNumber, int32_t value);
-
 /**
  * Flushes the stream and forces any buffered bytes to be written.  This
- * does not flush the underlying NSOutputStream.
+ * does not flush the underlying NSOutputStream. Returns free space in buffer.
  */
 - (void) flush;
 
+/** Write a single byte. */
 - (void) writeRawByte:(uint8_t) value;
 
+/** Encode and write a tag. */
 - (void) writeTag:(int32_t) fieldNumber format:(int32_t) format;
 
+/** Write a little-endian 32-bit integer. */
 - (void) writeRawLittleEndian32:(int32_t) value;
+/** Write a little-endian 64-bit integer. */
 - (void) writeRawLittleEndian64:(int64_t) value;
 
 /**
@@ -146,11 +60,13 @@ int32_t computeEnumSize(int32_t fieldNumber, int32_t value);
  * unsigned, so it won't be sign-extended if negative.
  */
 - (void) writeRawVarint32:(int32_t) value;
+/** Encode and write a varint. */
 - (void) writeRawVarint64:(int64_t) value;
 
 - (void) writeRawLittleEndian32:(int32_t) value;
 - (void) writeRawLittleEndian64:(int64_t) value;
 
+/** Write an array of bytes. */
 - (void) writeRawData:(NSData*) data;
 - (void) writeRawData:(NSData*) data offset:(int32_t) offset length:(int32_t) length;
 

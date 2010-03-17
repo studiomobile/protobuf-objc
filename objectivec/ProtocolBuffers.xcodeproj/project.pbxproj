@@ -75,6 +75,10 @@
 		100000000000001C0000001A /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001C00000019 /* WireFormatTests.m */; };
 		100000000000001C0000001B /* WireFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001C00000019 /* WireFormatTests.m */; };
 		100000000000002900000046 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000002900000044 /* libProtocolBuffers.a */; };
+		B408FD0811513D9500B618B1 /* RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B408FD0711513D9500B618B1 /* RingBuffer.m */; };
+		B408FD0911513D9500B618B1 /* RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B408FD0711513D9500B618B1 /* RingBuffer.m */; };
+		B408FD0A11513D9500B618B1 /* RingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B408FD0611513D9500B618B1 /* RingBuffer.h */; };
+		B408FD0B11513D9500B618B1 /* RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B408FD0711513D9500B618B1 /* RingBuffer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +175,8 @@
 		100000000000001C00000018 /* WireFormatTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WireFormatTests.h; path = Tests/WireFormatTests.h; sourceTree = "<group>"; };
 		100000000000001C00000019 /* WireFormatTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WireFormatTests.m; path = Tests/WireFormatTests.m; sourceTree = "<group>"; };
 		100000000000002900000044 /* libProtocolBuffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolBuffers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B408FD0611513D9500B618B1 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		B408FD0711513D9500B618B1 /* RingBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +301,8 @@
 				10000000000000090000003B /* CodedOutputStream.m */,
 				100000000000001500000215 /* TextFormat.m */,
 				100000000000001C00000015 /* WireFormat.m */,
+				B408FD0611513D9500B618B1 /* RingBuffer.h */,
+				B408FD0711513D9500B618B1 /* RingBuffer.m */,
 			);
 			name = IO;
 			sourceTree = "<group>";
@@ -392,6 +400,7 @@
 				100000000000000B0000002E /* ExtensionField.h in Headers */,
 				100000000000000B00000029 /* ExtendableMessage_Builder.h in Headers */,
 				10000000000000090000012D /* ConcreteExtensionField.h in Headers */,
+				B408FD0A11513D9500B618B1 /* RingBuffer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +535,7 @@
 				10000000000000120000013C /* MutableExtensionRegistry.m in Sources */,
 				100000000000000B0000002B /* ExtendableMessage_Builder.m in Sources */,
 				100000000000000900000130 /* ConcreteExtensionField.m in Sources */,
+				B408FD0B11513D9500B618B1 /* RingBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +568,7 @@
 				100000000000000B0000002C /* ExtendableMessage_Builder.m in Sources */,
 				10000000000000090000012F /* ConcreteExtensionField.m in Sources */,
 				100000000000001200000041 /* Main.m in Sources */,
+				B408FD0911513D9500B618B1 /* RingBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +592,7 @@
 				100000000000001A0000006D /* UnknownFieldSetTest.m in Sources */,
 				100000000000001A0000009F /* UtilitiesTests.m in Sources */,
 				100000000000001C0000001A /* WireFormatTests.m in Sources */,
+				B408FD0811513D9500B618B1 /* RingBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +741,8 @@
 		100000000000001700000056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos3.0;
+				VALID_ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Release;
 		};

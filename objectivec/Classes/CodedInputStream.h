@@ -130,27 +130,6 @@
 - (void) popLimit:(int32_t) oldLimit;
 - (int32_t) bytesUntilLimit;
 
-/**
- * Decode a ZigZag-encoded 32-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n An unsigned 32-bit integer, stored in a signed int.
- * @return A signed 32-bit integer.
- */
-int32_t decodeZigZag32(int32_t n);
-
-/**
- * Decode a ZigZag-encoded 64-bit value.  ZigZag encodes signed integers
- * into values that can be efficiently encoded with varint.  (Otherwise,
- * negative values must be sign-extended to 64 bits to be varint encoded,
- * thus always taking 10 bytes on the wire.)
- *
- * @param n An unsigned 64-bit integer, stored in a signed int.
- * @return A signed 64-bit integer.
- */
-int64_t decodeZigZag64(int64_t n);
 
 /** Read an embedded message field value from the stream. */
 - (void) readMessage:(id<PBMessage_Builder>) builder extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
