@@ -43,17 +43,17 @@
 		1000000000000012000000A7 /* MessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000012000000A5 /* MessageTests.m */; };
 		100000000000001200000103 /* MicroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001200000102 /* MicroTest.m */; };
 		10000000000000120000013A /* MutableExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 100000000000001200000139 /* MutableExtensionRegistry.h */; };
-		10000000000000120000013D /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000120000013B /* MutableExtensionRegistry.m */; };
 		10000000000000120000013C /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000120000013B /* MutableExtensionRegistry.m */; };
+		10000000000000120000013D /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000120000013B /* MutableExtensionRegistry.m */; };
 		100000000000001200000140 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000120000013F /* MutableField.m */; };
 		100000000000001200000141 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000120000013F /* MutableField.m */; };
+		100000000000001500000216 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001500000215 /* TextFormat.m */; };
+		100000000000001500000217 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001500000215 /* TextFormat.m */; };
 		100000000000001800000071 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000001800000070 /* SenTestingKit.framework */; };
 		100000000000001800000072 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100000000000001800000070 /* SenTestingKit.framework */; };
 		1000000000000018000000E3 /* SmallBlockInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000018000000E2 /* SmallBlockInputStream.m */; };
 		100000000000001900000141 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001900000140 /* TestUtilities.m */; };
 		100000000000001900000142 /* TestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001900000140 /* TestUtilities.m */; };
-		100000000000001500000216 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001500000215 /* TextFormat.m */; };
-		100000000000001500000217 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001500000215 /* TextFormat.m */; };
 		100000000000001A00000057 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000056 /* Unittest.pb.m */; };
 		100000000000001A00000058 /* Unittest.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000056 /* Unittest.pb.m */; };
 		100000000000001A0000005B /* UnittestEmbedOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A0000005A /* UnittestEmbedOptimizeFor.pb.m */; };
@@ -92,6 +92,7 @@
 		100000000000000700000086 /* AbstractMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage.m; sourceTree = "<group>"; };
 		100000000000000700000089 /* AbstractMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage_Builder.h; sourceTree = "<group>"; };
 		10000000000000070000008A /* AbstractMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage_Builder.m; sourceTree = "<group>"; };
+		100000000000000700000163 /* ProtocolBuffers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProtocolBuffers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		100000000000000800000077 /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bootstrap.h; path = Classes/Bootstrap.h; sourceTree = "<group>"; };
 		100000000000000900000030 /* CodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedInputStream.h; sourceTree = "<group>"; };
 		100000000000000900000031 /* CodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedInputStream.m; sourceTree = "<group>"; };
@@ -134,16 +135,15 @@
 		10000000000000120000013B /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
 		10000000000000120000013E /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
 		10000000000000120000013F /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
-		100000000000000700000163 /* ProtocolBuffers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ProtocolBuffers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		1000000000000015000001E7 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = Classes/ProtocolBuffers.h; sourceTree = "<group>"; };
 		10000000000000150000015C /* ProtocolBuffers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers_Prefix.pch; sourceTree = "<group>"; };
+		1000000000000015000001E7 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = Classes/ProtocolBuffers.h; sourceTree = "<group>"; };
+		100000000000001500000214 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		100000000000001500000215 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
 		100000000000001800000070 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1000000000000018000000E1 /* SmallBlockInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallBlockInputStream.h; path = Tests/SmallBlockInputStream.h; sourceTree = "<group>"; };
 		1000000000000018000000E2 /* SmallBlockInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallBlockInputStream.m; path = Tests/SmallBlockInputStream.m; sourceTree = "<group>"; };
 		10000000000000190000013F /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
 		100000000000001900000140 /* TestUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUtilities.m; path = Tests/TestUtilities.m; sourceTree = "<group>"; };
-		100000000000001500000214 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
-		100000000000001500000215 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
 		100000000000001A0000004F /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		100000000000001A00000051 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100000000000001A00000055 /* Unittest.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unittest.pb.h; path = Tests/Unittest.pb.h; sourceTree = "<group>"; };
@@ -174,21 +174,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		100000000000000C000000D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				100000000000001800000072 /* SenTestingKit.framework in Frameworks */,
-				100000000000000C00000093 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		100000000000000C000000D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				100000000000002900000046 /* libProtocolBuffers.a in Frameworks */,
 				100000000000001800000071 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000C000000D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000001800000072 /* SenTestingKit.framework in Frameworks */,
+				100000000000000C00000093 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +504,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1000000000000018000000F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000700000087 /* AbstractMessage.m in Sources */,
+				10000000000000070000008B /* AbstractMessage_Builder.m in Sources */,
+				100000000000000900000033 /* CodedInputStream.m in Sources */,
+				10000000000000090000003C /* CodedOutputStream.m in Sources */,
+				100000000000000B00000026 /* ExtendableMessage.m in Sources */,
+				100000000000000B00000032 /* ExtensionRegistry.m in Sources */,
+				100000000000000C00000059 /* Field.m in Sources */,
+				100000000000000D00000006 /* GeneratedMessage.m in Sources */,
+				100000000000000D0000000D /* GeneratedMessage_Builder.m in Sources */,
+				100000000000001200000140 /* MutableField.m in Sources */,
+				100000000000001500000216 /* TextFormat.m in Sources */,
+				100000000000001A00000069 /* UnknownFieldSet.m in Sources */,
+				100000000000001A00000070 /* UnknownFieldSet_Builder.m in Sources */,
+				100000000000001A0000009B /* Utilities.m in Sources */,
+				100000000000001C00000016 /* WireFormat.m in Sources */,
+				10000000000000120000013C /* MutableExtensionRegistry.m in Sources */,
+				100000000000000B0000002B /* ExtendableMessage_Builder.m in Sources */,
+				100000000000000900000130 /* ConcreteExtensionField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		100000000000001800000119 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -533,31 +558,6 @@
 				100000000000000B0000002C /* ExtendableMessage_Builder.m in Sources */,
 				10000000000000090000012F /* ConcreteExtensionField.m in Sources */,
 				100000000000001200000041 /* Main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1000000000000018000000F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				100000000000000700000087 /* AbstractMessage.m in Sources */,
-				10000000000000070000008B /* AbstractMessage_Builder.m in Sources */,
-				100000000000000900000033 /* CodedInputStream.m in Sources */,
-				10000000000000090000003C /* CodedOutputStream.m in Sources */,
-				100000000000000B00000026 /* ExtendableMessage.m in Sources */,
-				100000000000000B00000032 /* ExtensionRegistry.m in Sources */,
-				100000000000000C00000059 /* Field.m in Sources */,
-				100000000000000D00000006 /* GeneratedMessage.m in Sources */,
-				100000000000000D0000000D /* GeneratedMessage_Builder.m in Sources */,
-				100000000000001200000140 /* MutableField.m in Sources */,
-				100000000000001500000216 /* TextFormat.m in Sources */,
-				100000000000001A00000069 /* UnknownFieldSet.m in Sources */,
-				100000000000001A00000070 /* UnknownFieldSet_Builder.m in Sources */,
-				100000000000001A0000009B /* Utilities.m in Sources */,
-				100000000000001C00000016 /* WireFormat.m in Sources */,
-				10000000000000120000013C /* MutableExtensionRegistry.m in Sources */,
-				100000000000000B0000002B /* ExtendableMessage_Builder.m in Sources */,
-				100000000000000900000130 /* ConcreteExtensionField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +598,11 @@
 		100000000000000A00000073 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					"$(ARCHS_UNIVERSAL_IPHONE_OS)",
+					i386,
+					x86_64,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -617,13 +621,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = iphonesimulator3.0;
-			};
-			name = Debug;
-		};
-		100000000000000A00000075 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				SDKROOT = iphoneos3.0;
+				VALID_ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -657,6 +656,12 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = CommandLineTests;
 				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		100000000000000A00000075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 			};
 			name = Debug;
 		};
@@ -721,29 +726,6 @@
 			};
 			name = Release;
 		};
-		100000000000001700000058 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_MISSING_PARENTHESES = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = iphonesimulator3.0;
-			};
-			name = Release;
-		};
 		100000000000001700000056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -774,6 +756,34 @@
 				PRODUCT_NAME = UnitTests;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		100000000000001700000058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_UNIVERSAL_IPHONE_OS)",
+					i386,
+					x86_64,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProtocolBuffers_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos3.0;
+				VALID_ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Release;
 		};
