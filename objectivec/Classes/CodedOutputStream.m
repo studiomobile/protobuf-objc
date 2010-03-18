@@ -67,7 +67,7 @@ const int32_t DEFAULT_BUFFER_SIZE = 4 * 1024;
 
 - (void)writeRawByte:(uint8_t)value {
 	while (![buffer appendByte:value]) {
-		[buffer flushToOutputStream:output];
+        [self flush];
 	}
 }
 
@@ -83,7 +83,7 @@ const int32_t DEFAULT_BUFFER_SIZE = 4 * 1024;
 		offset += written;
 		length -= written;
 		if (!written || length > 0) {
-			[buffer flushToOutputStream:output];
+            [self flush];
 		}
 	}
 }

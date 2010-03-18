@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import "TestUtilities.h"
-
+#import "ProtocolBuffers.h"
 #import "Unittest.pb.h"
 
 @implementation TestUtilities

@@ -3,7 +3,6 @@
 @implementation RingBuffer
 
 - (id)initWithData:(NSMutableData*)data {
-	assert(data.length > 1);
 	if (![super init]) return nil;
 	buffer = [data retain];
 	return self;

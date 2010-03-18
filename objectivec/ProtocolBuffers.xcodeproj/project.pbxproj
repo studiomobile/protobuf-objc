@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044D9F6011520C26000E7C4B /* CodedInputStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000900000035 /* CodedInputStreamTests.m */; };
+		044D9F6111520C26000E7C4B /* CodedOuputStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000900000038 /* CodedOuputStreamTests.m */; };
+		044D9F6211520C26000E7C4B /* CoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000900000186 /* CoreTests.m */; };
+		044D9F6311520C26000E7C4B /* GeneratedMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000D00000009 /* GeneratedMessageTests.m */; };
+		044D9F6411520C26000E7C4B /* MicroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001200000102 /* MicroTest.m */; };
+		044D9F6511520C26000E7C4B /* SmallBlockInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000000000000018000000E2 /* SmallBlockInputStream.m */; };
+		044D9F6611520C26000E7C4B /* UnittestEmbedOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A0000005A /* UnittestEmbedOptimizeFor.pb.m */; };
+		044D9F6711520C26000E7C4B /* UnittestMset.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000061 /* UnittestMset.pb.m */; };
+		044D9F6811520C26000E7C4B /* UnittestOptimizeFor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A00000064 /* UnittestOptimizeFor.pb.m */; };
+		044D9F6911520C26000E7C4B /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000001A0000009E /* UtilitiesTests.m */; };
 		100000000000000700000087 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000700000086 /* AbstractMessage.m */; };
 		100000000000000700000088 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000700000086 /* AbstractMessage.m */; };
 		10000000000000070000008B /* AbstractMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000070000008A /* AbstractMessage_Builder.m */; };
@@ -143,7 +153,7 @@
 		1000000000000015000001E7 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = Classes/ProtocolBuffers.h; sourceTree = "<group>"; };
 		100000000000001500000214 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
 		100000000000001500000215 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
-		100000000000001800000070 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		100000000000001800000070 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
 		1000000000000018000000E1 /* SmallBlockInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallBlockInputStream.h; path = Tests/SmallBlockInputStream.h; sourceTree = "<group>"; };
 		1000000000000018000000E2 /* SmallBlockInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallBlockInputStream.m; path = Tests/SmallBlockInputStream.m; sourceTree = "<group>"; };
 		10000000000000190000013F /* TestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtilities.h; path = Tests/TestUtilities.h; sourceTree = "<group>"; };
@@ -543,12 +553,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100000000000001C0000001B /* WireFormatTests.m in Sources */,
-				100000000000001900000142 /* TestUtilities.m in Sources */,
-				100000000000001A0000006C /* UnknownFieldSetTest.m in Sources */,
-				100000000000001A0000005E /* UnittestImport.pb.m in Sources */,
-				100000000000001A00000057 /* Unittest.pb.m in Sources */,
+				044D9F6011520C26000E7C4B /* CodedInputStreamTests.m in Sources */,
+				044D9F6111520C26000E7C4B /* CodedOuputStreamTests.m in Sources */,
+				044D9F6211520C26000E7C4B /* CoreTests.m in Sources */,
+				044D9F6311520C26000E7C4B /* GeneratedMessageTests.m in Sources */,
 				1000000000000012000000A7 /* MessageTests.m in Sources */,
+				044D9F6411520C26000E7C4B /* MicroTest.m in Sources */,
+				044D9F6511520C26000E7C4B /* SmallBlockInputStream.m in Sources */,
+				100000000000001900000142 /* TestUtilities.m in Sources */,
+				100000000000001A00000057 /* Unittest.pb.m in Sources */,
+				044D9F6611520C26000E7C4B /* UnittestEmbedOptimizeFor.pb.m in Sources */,
+				100000000000001A0000005E /* UnittestImport.pb.m in Sources */,
+				044D9F6711520C26000E7C4B /* UnittestMset.pb.m in Sources */,
+				044D9F6811520C26000E7C4B /* UnittestOptimizeFor.pb.m in Sources */,
+				100000000000001A0000006C /* UnknownFieldSetTest.m in Sources */,
+				044D9F6911520C26000E7C4B /* UtilitiesTests.m in Sources */,
+				100000000000001C0000001B /* WireFormatTests.m in Sources */,
+				B408FD0911513D9500B618B1 /* RingBuffer.m in Sources */,
 				100000000000000700000088 /* AbstractMessage.m in Sources */,
 				10000000000000070000008C /* AbstractMessage_Builder.m in Sources */,
 				100000000000000900000032 /* CodedInputStream.m in Sources */,
@@ -568,7 +589,6 @@
 				100000000000000B0000002C /* ExtendableMessage_Builder.m in Sources */,
 				10000000000000090000012F /* ConcreteExtensionField.m in Sources */,
 				100000000000001200000041 /* Main.m in Sources */,
-				B408FD0911513D9500B618B1 /* RingBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

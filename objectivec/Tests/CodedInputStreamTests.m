@@ -282,6 +282,7 @@
 
 - (void) testReadMaliciouslyLargeBlob {
   NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+  [rawOutput open];
   PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput];
 
   int32_t tag = PBWireFormatMakeTag(1, PBWireFormatLengthDelimited);

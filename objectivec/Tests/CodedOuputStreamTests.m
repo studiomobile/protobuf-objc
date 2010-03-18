@@ -45,12 +45,18 @@
 }
 
 
+- (NSOutputStream*)openMemoryStream {
+    NSOutputStream *stream = [NSOutputStream outputStreamToMemory];
+    [stream open];
+    return stream;
+}
+
 /**
  * Parses the given bytes using writeRawLittleEndian32() and checks
  * that the result matches the given value.
  */
 - (void) assertWriteLittleEndian32:(NSData*) data value:(int32_t) value {
-  NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+  NSOutputStream* rawOutput = [self openMemoryStream];
   PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput];
   [output writeRawLittleEndian32:(int32_t)value];
   [output flush];
@@ -60,7 +66,7 @@
 
   // Try different block sizes.
   for (int blockSize = 1; blockSize <= 16; blockSize *= 2) {
-    NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+    NSOutputStream* rawOutput = [self openMemoryStream];
     PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput bufferSize:blockSize];
     [output writeRawLittleEndian32:(int32_t)value];
     [output flush];
@@ -76,7 +82,7 @@
  * that the result matches the given value.
  */
 - (void) assertWriteLittleEndian64:(NSData*) data value:(int64_t) value {
-  NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+  NSOutputStream* rawOutput = [self openMemoryStream];
   PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput];
   [output writeRawLittleEndian64:value];
   [output flush];
@@ -86,7 +92,7 @@
 
   // Try different block sizes.
   for (int blockSize = 1; blockSize <= 16; blockSize *= 2) {
-    NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+    NSOutputStream* rawOutput = [self openMemoryStream];
     PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput bufferSize:blockSize];
     [output writeRawLittleEndian64:value];
     [output flush];
@@ -105,7 +111,7 @@
 - (void) assertWriteVarint:(NSData*) data value:(int64_t) value {
   // Only do 32-bit write if the value fits in 32 bits.
   if (logicalRightShift64(value, 32) == 0) {
-    NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+    NSOutputStream* rawOutput = [self openMemoryStream];
     PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput];
     [output writeRawVarint32:(int32_t)value];
     [output flush];
@@ -118,7 +124,7 @@
   }
 
   {
-    NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+    NSOutputStream* rawOutput = [self openMemoryStream];
     PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput];
     [output writeRawVarint64:value];
     [output flush];
@@ -135,7 +141,7 @@
   for (int blockSize = 1; blockSize <= 16; blockSize *= 2) {
     // Only do 32-bit write if the value fits in 32 bits.
     if (logicalRightShift64(value, 32) == 0) {
-      NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+      NSOutputStream* rawOutput = [self openMemoryStream];
       PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput bufferSize:blockSize];
 
       [output writeRawVarint32:(int32_t)value];
@@ -146,7 +152,7 @@
     }
 
     {
-      NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+      NSOutputStream* rawOutput = [self openMemoryStream];
       PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput bufferSize:blockSize];
 
       [output writeRawVarint64:value];
@@ -275,7 +281,7 @@
 
   // Try different block sizes.
   for (int blockSize = 1; blockSize < 256; blockSize *= 2) {
-    NSOutputStream* rawOutput = [NSOutputStream outputStreamToMemory];
+    NSOutputStream* rawOutput = [self openMemoryStream];
     PBCodedOutputStream* output = [PBCodedOutputStream streamWithOutputStream:rawOutput bufferSize:blockSize];
     [message writeToCodedOutputStream:output];
     [output flush];
