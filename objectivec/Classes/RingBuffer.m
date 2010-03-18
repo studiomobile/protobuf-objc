@@ -53,31 +53,37 @@
 
 
 - (NSInteger)flushToOutputStream:(NSOutputStream*)stream {
-	const uint8_t *data = buffer.bytes;
 	NSInteger totalWritten = 0;
+	const uint8_t *data = buffer.bytes;
 	
 	if (tail > position) {
-		NSInteger toWrite = buffer.length - tail;
-		totalWritten = [stream write:data + tail maxLength:toWrite];
-		if (totalWritten < toWrite) return totalWritten;
-		tail += totalWritten;
+		int32_t written = [stream write:data + tail maxLength:buffer.length - tail];
+        if (written <= 0) return totalWritten;
+        totalWritten += written;
+		tail += written;
 		if (tail == buffer.length) {
 			tail = 0;
 		}
 	}
-	
+
 	if (tail < position) {
 		int32_t written = [stream write:data + tail maxLength:position - tail];
 		if (written <= 0) return totalWritten;
 		totalWritten += written;
 		tail += written;
-		if (position == buffer.length && tail > 0) {
-			position = 0;
-		}
-		if (tail == buffer.length) {
-			tail = 0;
-		}
 	}
+
+    if (tail == position) {
+        tail = position = 0;
+    }
+
+    if (position == buffer.length && tail > 0) {
+        position = 0;
+    }
+
+    if (tail == buffer.length) {
+        tail = 0;
+    }
 	
 	return totalWritten;
 }
