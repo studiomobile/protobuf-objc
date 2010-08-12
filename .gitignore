@@ -1,3 +1,23 @@
 # osx noise
 .DS_Store
 profile
+Makefile
+config.log
+config.status
+gtest/Makefile
+gtest/config.log
+gtest/config.status
+gtest/libtool
+libtool
+src/Makefile
+src/.deps/
+src/.libs
+src/*.lo
+src/*.o
+src/*.la
+src/google/protobuf/unittest*.cc
+src/google/protobuf/unittest*.h
+src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.pb.cc
+src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.pb.h
+src/protoc
+src/unittest_proto_middleman
