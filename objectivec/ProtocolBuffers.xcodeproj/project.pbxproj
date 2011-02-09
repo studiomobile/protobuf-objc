@@ -662,7 +662,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv6 $(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Debug;
@@ -703,7 +703,7 @@
 		100000000000000A00000075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv6 $(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Debug;
@@ -772,7 +772,7 @@
 		100000000000001700000056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv6 $(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Release;
@@ -829,7 +829,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv6 $(ARCHS_UNIVERSAL_IPHONE_OS) i386 x86_64";
 			};
 			name = Release;
