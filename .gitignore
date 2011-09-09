@@ -21,3 +21,5 @@ src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.pb.cc
 src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.pb.h
 src/protoc
 src/unittest_proto_middleman
+xcuserdata
+*.xcworkspace
