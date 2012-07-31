@@ -490,14 +490,14 @@ int32_t typeSize(PBExtensionType type) {
     case PBExtensionTypeEnum:     return [NSNumber numberWithInt:[input readEnum]];
     case PBExtensionTypeGroup:
     {
-      id<PBMessage_Builder> builder = [messageOrGroupClass builder];
+      id<PBMessage_Builder> builder = (id<PBMessage_Builder>)[messageOrGroupClass builder];
       [input readGroup:fieldNumber builder:builder extensionRegistry:extensionRegistry];
       return [builder build];
     }
 
     case PBExtensionTypeMessage:
     {
-      id<PBMessage_Builder> builder = [messageOrGroupClass builder];
+      id<PBMessage_Builder> builder = (id<PBMessage_Builder>)[messageOrGroupClass builder];
       [input readMessage:builder extensionRegistry:extensionRegistry];
       return [builder build];
     }
