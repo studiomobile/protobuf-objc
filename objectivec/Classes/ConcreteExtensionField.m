@@ -16,10 +16,10 @@
 
 @interface PBConcreteExtensionField()
 @property PBExtensionType type;
-@property Class extendedClass;
+@property (assign) Class extendedClass;
 @property int32_t fieldNumber;
 @property (retain) id defaultValue;
-@property Class messageOrGroupClass;
+@property (assign) Class messageOrGroupClass;
 @property BOOL isRepeated;
 @property BOOL isPacked;
 @property BOOL isMessageSetWireFormat;
